@@ -4,6 +4,7 @@ import com.bridgelabz.utility.Utility;
 
 public class FlipCoins {
 	
+//main method to call functions and input processing	
 	
 	public static void main(String[] args) {
 		
@@ -16,6 +17,10 @@ public class FlipCoins {
 		System.out.println(headTailPercentage);
 	}
 	
+/* The below flipsCoin method will take number of turns as input and generate
+ * a random value for each turns equate to head or possibility and returns the 
+ * percentage. 	
+ */
 	
 	public static int flipsCoin(int turns)
 	{
@@ -41,3 +46,5 @@ public class FlipCoins {
 	
 
 }
+
+//end of program
