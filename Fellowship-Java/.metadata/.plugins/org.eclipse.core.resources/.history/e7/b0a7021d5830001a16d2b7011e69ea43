@@ -1,0 +1,14 @@
+package check;
+
+public class Try {
+	
+	
+	public static void main(String[] args) {
+		replace("Hello <<username>>","mukesh");
+	}
+	public static String replace(String str,String name)
+	{
+		return str.replaceFirst("<<username>>",name);
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.bridgelabz.basicProgramming;
+
+import com.bridgelabz.utility.Utility;
+
+public class StringReplace {
+	
+	
+	public static void main(String[] args) {
+		String str="Hello <<username>>";
+		System.out.println("Enter the string to replace <<username>>");
+		String replace=Utility.readString();
+	}
+	
+	public static String replace(String str,String replace)
+	{
+		return str.replaceFirst("<<username>>",replace);
+	}
+
+}

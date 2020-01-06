@@ -1,0 +1,40 @@
+package check;
+
+import java.util.ArrayList;
+
+public class Try {
+	
+	
+	public static void main(String[] args) {
+		ArrayList<Integer> list=new ArrayList<Integer>();
+		list=primeFactors(28);
+		for(Integer l:list)
+		{
+			System.out.println(l);
+		}
+	}
+	
+	public static ArrayList<Integer> primeFactors(int number)
+	{
+		int i=0;
+		ArrayList<Integer> factorList=new ArrayList<Integer>();
+		while(number>1)
+		{
+			for(i=2;i<=number;i++)
+			{
+				if(number%i==0)
+				{
+					number=number/i;
+					factorList.add(i);
+					break;
+				}
+				
+			}
+			
+			
+		}
+		return factorList;
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package check;
+
+public class Try {
+	
+	
+	public static void main(String[] args) {
+		boolean check=leapYear(1900);
+		System.out.println(check);
+	}
+	public static boolean leapYear(int year)
+	{
+		boolean flag=false;
+		if((year%4==0) && (year%100!=0) || (year%400==0) && (year%100!=0))
+		{
+			flag=true;
+		}
+		return flag;
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package check;
+
+public class Try {
+	
+	
+	public static void main(String[] args) {
+		double check=power(6);
+		System.out.println(check);
+	}
+	
+	public static int power(double exp)
+	{
+		int base=2,result=1;
+		for(int i=0;i<=exp;i++)
+		{
+			result=result*2;
+		}
+		return result;
+	}
+
+}
