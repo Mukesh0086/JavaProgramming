@@ -9,7 +9,8 @@ public class PrimeFactors {
 	//main method to call functions and input processing
 
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
+		
 		System.out.println("Enter the number to find prime factor");
 		int number=Utility.readInteger();
 		ArrayList<Integer> primeList=new ArrayList<Integer>();
