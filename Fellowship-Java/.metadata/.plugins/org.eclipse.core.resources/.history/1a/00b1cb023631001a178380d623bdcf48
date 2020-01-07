@@ -1,14 +1,12 @@
 package com.bridgelabz.logicalProgramming;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
 
 import com.bridgelabz.utility.Utility;
 
 public class CouponNumbers {
 	
-	public static void main(String[] args)  {
+	public static void main(String[] args) {
 		
 		System.out.println("Enter the number of distinct coupon number required");
 		int number=Utility.readInteger();
@@ -17,51 +15,38 @@ public class CouponNumbers {
 		
 	}
 	
-	public static int distinctCoupons(int number){
-		HashSet< Integer> hs=new HashSet();
-		
+	public static int distinctCoupons(int number) {
+		boolean flag=false;
 		int count=0;
-		int distinct=number;
-		
-		while(number>0 && hs.size()<=distinct)
-		{
-			
-			boolean flag=false;
-			
+		int[] arr=new int[number];
+		while(number>0) {
 			count=count+1;
 			int coupon=(int) (Math.random()*10);
-			System.out.println("coupon"+coupon);
-			
-			
-			flag=hs.add(coupon);
-			
-			
-			
-			if(flag==false)
+			if(arr.length==0)
 			{
-				number=number+1;
+				arr[0]=coupon;
 			}
-		
+			else
+			{
+				for(int i=0;i<arr.length;i++)
+				{
+					if(arr[i]!=coupon)
+					{
+						flag=true;
+					}
+					if(flag==true)
+						
+					{
+						arr[i+1]=coupon;
+					}
+				}
+			}
 			
-			
-			
-		
-		number=number-1;
-		
-			
-			
-		
-	}	
-		
-		
-		
-		
-		
+		}
 		return count;
-}
+	}
+		
+	
 	
 
-
-
 }
-

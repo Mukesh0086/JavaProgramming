@@ -22,21 +22,22 @@ public class CouponNumbers {
 		
 		int count=0;
 		int distinct=number;
-		
 		while(number>0 && hs.size()<=distinct)
 		{
-			
+			System.out.println(hs.size());
 			boolean flag=false;
 			
 			count=count+1;
 			int coupon=(int) (Math.random()*10);
-			System.out.println("coupon"+coupon);
+			System.out.println(coupon);
+			//System.out.println(coupon);
 			
+				flag=hs.add(coupon);
 			
-			flag=hs.add(coupon);
-			
-			
-			
+			if(flag==true)
+			{
+				number=number-1;
+			}
 			if(flag==false)
 			{
 				number=number+1;
@@ -47,7 +48,7 @@ public class CouponNumbers {
 			
 		
 		number=number-1;
-		
+		System.out.println(number);
 			
 			
 		

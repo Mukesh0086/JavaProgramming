@@ -22,36 +22,36 @@ public class CouponNumbers {
 		
 		int count=0;
 		int distinct=number;
-		
-		while(number>0 && hs.size()<=distinct)
+		while(number>0)
 		{
-			
+			System.out.println(number);
 			boolean flag=false;
 			
 			count=count+1;
 			int coupon=(int) (Math.random()*10);
-			System.out.println("coupon"+coupon);
+			System.out.println(coupon);
+			while(hs.size()<=distinct)
+			{
+				flag=hs.add(coupon);
 			
-			
-			flag=hs.add(coupon);
-			
-			
-			
+			if(flag==true)
+			{
+				number=number-1;
+			}
 			if(flag==false)
 			{
 				number=number+1;
 			}
-		
+		}
 			
 			
 			
 		
 		number=number-1;
-		
 			
 			
 		
-	}	
+	}			
 		
 		
 		

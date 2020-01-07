@@ -1,0 +1,13 @@
+package com.bridgelabz.logicalProgramming;
+
+import java.util.ArrayList;
+
+public class demo {
+	
+	public static void main(String[] args) {
+		ArrayList<Integer> al=new ArrayList();
+		System.out.println(al.size());
+		
+	}
+
+}

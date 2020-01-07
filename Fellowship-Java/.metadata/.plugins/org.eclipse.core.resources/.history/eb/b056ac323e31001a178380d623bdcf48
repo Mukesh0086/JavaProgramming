@@ -25,18 +25,21 @@ public class CouponNumbers {
 		
 		while(number>0 && hs.size()<=distinct)
 		{
-			
+			System.out.println("size"+hs.size());
 			boolean flag=false;
 			
 			count=count+1;
 			int coupon=(int) (Math.random()*10);
 			System.out.println("coupon"+coupon);
-			
+			//System.out.println(coupon);
 			
 			flag=hs.add(coupon);
+			System.out.println("boolean value"+flag);
 			
-			
-			
+			if(flag==true)
+			{
+				number=number-1;
+			}
 			if(flag==false)
 			{
 				number=number+1;
@@ -47,7 +50,7 @@ public class CouponNumbers {
 			
 		
 		number=number-1;
-		
+		System.out.println("number"+number);
 			
 			
 		
