@@ -1,0 +1,50 @@
+package com.bridgelabz.logicalProgramming;
+
+import java.util.ArrayList;
+
+import com.bridgelabz.utility.Utility;
+
+public class CouponNumbers {
+	
+	public static void main(String[] args) {
+		System.out.println("Enter the number of distinct coupon number required");
+		int number=Utility.readInteger();
+		int result=distinctCoupons(number);
+		System.out.println("The number of times the coupon is generated is "+result);
+		
+	}
+	
+	public static int distinctCoupons(int number) {
+		int i=0,j=0;
+		ArrayList<Integer> couponList=new ArrayList<>();
+		while(number>0)
+		{
+			int coupon=(int) (Math.random()*10);
+			System.out.println(coupon);
+			
+			
+			for(Integer coupons:couponList)
+			{
+				if(coupons!=coupon)
+				{
+					i=i+1;
+					couponList.add(coupon);
+					System.out.println(number);
+					number=number-1;
+				}
+				else {
+					j=j-1;
+				}
+			}
+		}
+		
+		
+		return i+j;
+		
+		
+		
+	}
+	
+	
+
+}

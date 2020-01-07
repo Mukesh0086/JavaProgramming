@@ -36,7 +36,5 @@ public class PowerOf {
 		}
 		return result;
 	}
-	
-		//End of program
 
 }
