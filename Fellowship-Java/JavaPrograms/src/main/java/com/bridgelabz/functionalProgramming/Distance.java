@@ -24,3 +24,5 @@ public class Distance {
 	}
 
 }
+
+	//End of program

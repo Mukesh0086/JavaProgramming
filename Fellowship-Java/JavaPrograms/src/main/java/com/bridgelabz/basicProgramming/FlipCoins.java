@@ -47,4 +47,4 @@ public class FlipCoins {
 
 }
 
-//end of program
+	//end of program

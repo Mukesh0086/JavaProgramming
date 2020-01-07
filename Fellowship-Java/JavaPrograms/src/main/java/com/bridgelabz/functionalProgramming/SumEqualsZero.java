@@ -58,3 +58,5 @@ public class SumEqualsZero {
 	}
 
 }
+
+	//End of program
