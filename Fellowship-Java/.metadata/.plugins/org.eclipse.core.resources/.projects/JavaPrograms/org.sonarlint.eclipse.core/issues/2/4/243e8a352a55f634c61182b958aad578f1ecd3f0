@@ -1,0 +1,12 @@
+
+jsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHŞRMINORZ
+CODE_SMELL
+nsquid:UselessImportCheck"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶HßRMINORZ
+CODE_SMELL
+lsquid:S1118
+":Add a private constructor to hide the implicit public one.(¹‹ó¿ıÿÿÿÿHàRMAJORZ
+CODE_SMELL
+Ysquid:S1068"'Remove this unused "LOG" private field.(Ëì·şÿÿÿÿHáRMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ø¦…ÊÿÿÿÿÿHâRMAJORZ
+CODE_SMELL

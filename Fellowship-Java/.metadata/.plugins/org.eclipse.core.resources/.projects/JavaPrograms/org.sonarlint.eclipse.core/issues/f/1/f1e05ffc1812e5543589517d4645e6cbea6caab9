@@ -1,0 +1,17 @@
+
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ8ïë¿ö÷-H÷RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïÐö©ýÿÿÿÿ8ïë¿ö÷-HøRMAJORZ
+CODE_SMELL
+•squid:S1488!"\Immediately return this expression instead of assigning it to the temporary variable "wind".(î§¼Öýÿÿÿÿ8ïë¿ö÷-HõRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÇšàÂþÿÿÿÿ8ïë¿ö÷-HùRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ó¢ŸØ8îïÀö÷-HûRMAJORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ–†£HñRMINORZ
+CODE_SMELL

@@ -1,0 +1,28 @@
+
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æ­šÍüÿÿÿÿHçRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ñïäø-HªRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(éÒäç8Ñïäø-H«RMAJORZ
+CODE_SMELL
+}squid:UselessImportCheck"=Remove this unused import 'java.util.InputMismatchException'.(İ§18åËÓø-HˆRMINORZ
+CODE_SMELL
+ssquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8åËÓø-H†RMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ş£”°8„Åüÿ÷-H„RMAJORZ
+CODE_SMELL
+ squid:S4165"gRemove this useless assignment; "playBoard" already holds the assigned value along all execution paths.(Ò÷¸şÿÿÿÿ8êâàø-HRMAJORZ
+CODE_SMELL
+tsquid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ÁÁ…€ø-HıRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(™ŸÉıÿÿÿÿ8„Åüÿ÷-H…RMAJORZ
+CODE_SMELL
+q
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¬¿Ë­ıÿÿÿÿ8â¹®‚ø-H³RMAJORZ
+CODE_SMELL
+Zsquid:S11685"&Return an empty array instead of null.(¥¹ï8â¹®‚ø-H´RMAJORZ
+CODE_SMELL

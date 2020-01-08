@@ -8,6 +8,8 @@ import com.bridgelabz.utility.Utility;
 
 public class CouponNumbers {
 	
+	
+	
 	public static void main(String[] args)  {
 		
 		System.out.println("Enter the number of distinct coupon number required");
@@ -42,20 +44,8 @@ public class CouponNumbers {
 				number=number+1;
 			}
 		
-			
-			
-			
-		
-		number=number-1;
-		
-			
-			
-		
-	}	
-		
-		
-		
-		
+			number=number-1;
+		}	
 		
 		return count;
 }
