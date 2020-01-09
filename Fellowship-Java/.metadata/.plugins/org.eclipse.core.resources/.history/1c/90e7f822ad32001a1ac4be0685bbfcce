@@ -1,0 +1,36 @@
+package com.bridgelabz.algorithmicProgramming;
+
+import java.util.ArrayList;
+
+public class PrimeNumbers {
+	
+	public static void main(String[] args) {
+		printIfPrime();
+	}
+	
+	public static void printIfPrime()
+	{
+		int number=2;
+		ArrayList<Integer> primenumbers=new ArrayList<Integer>();
+		while(number<1000) {
+			int count=0;
+			for(int i=2;i<number;i++)
+			{
+				if(number%i==0)
+				{
+					count=count+1;
+				}
+			}
+			if(count==0)
+			{
+				primenumbers.add(number);
+				System.out.println(number);
+			}
+			
+		}
+		
+		
+		return null;
+	}
+
+}
