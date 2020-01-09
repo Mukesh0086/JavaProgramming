@@ -15,20 +15,20 @@ public class LeapYearTest {
 	
 	public void checkYear()
 	{
-		assertTrue(year>0);
-		assertTrue(year/1000>=1);
-		assertTrue(year<3000);
+	
+		assertTrue(year/1000>=1); // checking entered year is 4 digit positive number
+		
 		
 		
 	}
 	@Test
 	
-	public void test() {
+	public void isLeapYearTest() {
 		
 		
 		assertTrue(year>1984);
-		assertEquals(false, LeapYear.isLeapYear(year));
-		assertEquals(true, LeapYear.isLeapYear(2016));
+		assertEquals(false, LeapYear.isLeapYear(year)); //Testing for multiple of 100 and false condition
+		assertEquals(true, LeapYear.isLeapYear(2016)); //Testing for true condition
 	}
 
 }

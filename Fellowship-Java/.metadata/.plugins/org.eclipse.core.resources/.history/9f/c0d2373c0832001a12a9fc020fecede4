@@ -1,0 +1,51 @@
+package com.bridgelabz.junitProgramming;
+
+
+
+public class VendorMachine {
+	static int count=0;
+	
+	//main method to call functions and input processing	
+	
+	public static void main(String[] args) {
+		int amount=3625;
+		
+		int []notes= {1000,500,100,50,20,10,5,2,1};
+		
+		fewestNotes(notes, amount,0);
+	
+	}
+	
+		
+	
+	/* The below  fewestNotes Method takes two arguments type and temperature and 
+	 * convert to either in celsius or fahrenheit based on type  	
+	 */
+	
+	public static void fewestNotes(int [] result,int amount,int index)
+	{
+		
+		while(amount>0&&amount!=0)
+		{
+			if(amount>=result[index])
+			{
+				
+				amount=amount-result[index];
+				System.out.println(result[index]);
+				count=count+1;
+				fewestNotes(result, amount, index);
+			}
+			else
+			{
+				
+				index=index+1;
+				fewestNotes(result, amount, index);
+			}
+			
+			
+			break;
+			
+		}	
+	}
+
+}

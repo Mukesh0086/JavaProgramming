@@ -1,0 +1,16 @@
+package com.bridgelabz.functionalProgramming;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SumEqualsZeroTest {
+
+	@Test
+	public void sumOfThreeNumbersEqualsZeroTest() {
+		
+		
+		
+	}
+
+}

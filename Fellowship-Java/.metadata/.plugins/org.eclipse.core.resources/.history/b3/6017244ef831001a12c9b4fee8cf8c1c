@@ -1,0 +1,29 @@
+package com.bridgelabz.junitProgramming;
+
+import java.util.ArrayList;
+
+public class ToBinary {
+	public static void main(String[] args) {
+		ArrayList< Integer> result=decimalToBinary(12);
+		
+		
+	}
+	
+	public static ArrayList<Integer> decimalToBinary(int number)
+	{
+		ArrayList<Integer> binary=new ArrayList();
+		
+		int bit=0;
+		while(number>=1)
+		{
+			bit=number%2;
+			binary.add(bit);
+			System.out.println(bit);
+			number=number/2;
+			
+		}
+		
+		return binary;
+	}
+
+}

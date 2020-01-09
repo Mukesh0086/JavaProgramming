@@ -1,5 +1,7 @@
 package com.bridgelabz.basicProgramming;
 
+import java.text.DecimalFormat;
+
 import com.bridgelabz.utility.Utility;
 
 public class Harmonic {
@@ -11,7 +13,9 @@ public class Harmonic {
 		System.out.println("Enter the number to calculate harmonic mean ");
 		int number=Utility.readInteger();
 		double result=harmonicMean(number);
-		System.out.println(result);
+		System.out.println("The sum of harmonic mean for "+number+" is "+result);
+		
+		
 		
 	}
 	
@@ -21,7 +25,7 @@ public class Harmonic {
 	 */
 	
 	public static double harmonicMean(int number) {
-	
+		
 		double sum = 0.0;
 
 		for (int i = 1; i <=number; i++) { 

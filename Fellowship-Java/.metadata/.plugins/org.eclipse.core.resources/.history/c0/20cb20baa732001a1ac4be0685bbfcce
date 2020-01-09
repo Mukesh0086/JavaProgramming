@@ -1,0 +1,64 @@
+package com.bridgelabz.logicalProgramming;
+
+import java.time.Duration;
+import java.time.Instant;
+import java.util.HashMap;
+import java.util.Map;
+
+import com.bridgelabz.utility.Utility;
+
+public class StopWatch {
+	
+	public static void main(String[] args) {
+		
+		HashMap<String, Long>result= new HashMap<String, Long>();
+		result=stopWatch();
+		for(Map.Entry<String, Long> results:result.entrySet())
+		{
+			System.out.print(results.getKey()+" = "+results.getValue()+" ");
+		}
+	}
+	
+	public static HashMap<String, Long>stopWatch()
+	{
+		HashMap<String, Long> stopwatch=new HashMap<String, Long>();
+		Instant time1 = null,time2 = null;
+		
+		System.out.println("type start to start the watch");
+		String start=Utility.readString();
+		if(start.equalsIgnoreCase("start"))
+		{
+			time1=Instant.now();
+		}
+		System.out.println("type stop to stop the watch");
+		String stop=Utility.readString();
+		if(stop.equalsIgnoreCase("stop"))
+		{
+			time2=Instant.now();
+		}
+		
+		Duration diff=Duration.between(time1, time2);
+		long millisecond=diff.toMillis();
+		long seconds=diff.toSeconds();
+		long minutes=diff.toMinutes();
+		long hours=diff.toHours();
+		
+		stopwatch.put("diff in milli seconds ", millisecond);
+		stopwatch.put("diff in seconds ",seconds);
+		stopwatch.put("diff in minutes ", minutes);
+		stopwatch.put("diff in hours ", hours);
+		
+		return stopwatch;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -37,3 +37,11 @@ r
 Bsrc/main/java/com/bridgelabz/logicalProgramming/CouponNumbers.java,f/d/fdc62030ca7d5502b5c754dddf605d3d9d9a71ee
 n
 >src/main/java/com/bridgelabz/logicalProgramming/TicTacToe.java,2/b/2bb3ee0af523e2f2c1359c248a0c16814d518ee2
+p
+@src/main/java/com/bridgelabz/junitProgramming/VendorMachine.java,b/9/b9e939d8290a8e07f53eb979378009453a74f311
+x
+Hsrc/main/java/com/bridgelabz/junitProgramming/TemperatureConversion.java,d/9/d9d2cc6e0b36c56f2ca186a1f1308a85ea6e16af
+k
+;src/main/java/com/bridgelabz/junitProgramming/ToBinary.java,4/5/4560f09bb1d8d06435d28462626718911819fd1e
+l
+<src/main/java/com/bridgelabz/junitProgramming/ToDecimal.java,1/2/128c7c1c9f7dea0a5e98737af1a48c3cbb8e8928

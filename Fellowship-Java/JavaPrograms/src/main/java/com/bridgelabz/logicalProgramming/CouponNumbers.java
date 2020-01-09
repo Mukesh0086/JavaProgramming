@@ -8,7 +8,7 @@ import com.bridgelabz.utility.Utility;
 
 public class CouponNumbers {
 	
-	
+	//main method to call functions and input processing	
 	
 	public static void main(String[] args)  {
 		
@@ -18,6 +18,10 @@ public class CouponNumbers {
 		System.out.println("The number of times the coupon is generated is "+result);
 		
 	}
+	
+	/*The below distinctCoupons method uses a Hashset and counts by using boolean variable which
+	 * returns true if successfully added to set and false if not added
+	 */
 	
 	public static int distinctCoupons(int number){
 		HashSet< Integer> hs=new HashSet();
@@ -50,8 +54,6 @@ public class CouponNumbers {
 		return count;
 }
 	
-
-
-
 }
+//End of Program
 

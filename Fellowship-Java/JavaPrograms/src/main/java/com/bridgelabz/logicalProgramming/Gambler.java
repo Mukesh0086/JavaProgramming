@@ -7,6 +7,8 @@ import com.bridgelabz.utility.Utility;
 
 public class Gambler {
 	
+	//main method to call functions and input processing	
+	
 	public static void main(String[] args) {
 		
 		HashMap<String, Float> gamblerResult=new HashMap();

@@ -1,0 +1,70 @@
+package com.bridgelabz.junitProgramming;
+
+
+
+public class VendorMachine {
+	static int count=0;
+	public static void main(String[] args) {
+		int amount=3625;
+		
+		int []notes= {10,1,5,2,20,50,1000,100,500};
+		int []result=sortReverse(notes);
+		fewestNotes(result, amount,0);
+	
+	}
+	
+	public static int[] sortReverse(int [] notes)
+	{
+		int temp=0;
+		
+		
+		for(int i=0;i<notes.length;i++)
+		{
+			for(int j=i+1;j<notes.length;j++)
+			{
+				
+			
+			if(notes[i]<notes[j])
+				
+			{
+				temp=notes[i];
+				notes[i]=notes[j];
+				notes[j]=temp;
+			}
+			}
+		}
+			
+		return notes;
+		
+	}
+	public static void fewestNotes(int [] result,int amount,int index)
+	{
+		
+		
+		while(amount>0&&amount!=0)
+		{
+			if(amount>=result[index])
+			{
+				
+				amount=amount-result[index];
+				System.out.println(result[index]);
+				count=count+1;
+				
+				
+				fewestNotes(result, amount, index);
+			}
+			else
+			{
+				
+				index=index+1;
+				fewestNotes(result, amount, index);
+			}
+			System.out.println(count);
+			
+			break;
+		}
+		//System.out.println(count);
+		
+	}
+
+}

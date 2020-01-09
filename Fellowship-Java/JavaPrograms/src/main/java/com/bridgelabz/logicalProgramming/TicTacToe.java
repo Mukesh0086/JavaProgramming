@@ -2,19 +2,32 @@ package com.bridgelabz.logicalProgramming;
 
 import java.util.Random;
 
-
-
 import com.bridgelabz.utility.Utility;
 public class TicTacToe {
 
 	//static reference to access non static methods in static method
-	//static TicTacToe ticTacToe = new TicTacToe();
+	
+	
 	private static final String PLAYER = "Player 1 Wins";
 	private static final String COMPUTER = "Computer Wins";
 	static String[][] mArray = new String[3][3]; 
+	
+	//main method to call functions and input processing	
+	
+	public static void main(String[] args) {
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				mArray[i][j] = "";
+			}
+		}		
+		runGame();
+	}
 
 	//Function to enter input from computer
+	
 	public static void computerInput() {
+		
 		Random random = new Random();
 		int row = 0 + random.nextInt(3);
 		int column = 0 + random.nextInt(3);
@@ -26,7 +39,9 @@ public class TicTacToe {
 	}
 
 	//Function for user to enter the input
+	
 	public static void playerInput() {
+		
 		System.out.print("Enter X at: ");
 		int row = Utility.readInteger();
 		int column = Utility.readInteger();
@@ -40,8 +55,11 @@ public class TicTacToe {
 	}
 
 	//function to check the game status after each turn
+	
 	public static String checkWinDraw() {
+		
 		//logic to check match in rows
+		
 		for(int i=0; i<3; i++) {
 			int j=0;
 			if(mArray[i][j].equals(mArray[i][j+1]) && mArray[i][j].equals(mArray[i][j+2]) && mArray[i][j]!="") {
@@ -54,6 +72,7 @@ public class TicTacToe {
 		}
 
 		//logic to check match in columns
+		
 		for(int j=0; j<3; j++) {
 			int i=0;
 			if(mArray[i][j].equals(mArray[i+1][j]) && mArray[i][j].equals(mArray[i+2][j]) && mArray[i][j]!="") {
@@ -66,6 +85,7 @@ public class TicTacToe {
 		}
 
 		//diagonal check Logic
+		
 		boolean flag = false;
 		int x = (mArray.length-1);
 		for(int i=0; i<(mArray.length-1); i++) {
@@ -89,6 +109,7 @@ public class TicTacToe {
 		}
 
 		//logic to check if draw
+		
 		int count = 0;
 		for(int i=0; i<3; i++) {
 			for(int j=0; j<3; j++) {
@@ -104,6 +125,7 @@ public class TicTacToe {
 	}
 
 	//function to print the layout after every step
+	
 	public static void printArray() {
 		for(int i=0; i<3; i++) {
 			for(int j=0; j<3; j++) {
@@ -114,8 +136,9 @@ public class TicTacToe {
 	}
 
 	//static function to run the game and check
-	public static void runGame() {
-		System.out.println("Computer Turn ");
+	
+	public static void runGame() {	
+		System.out.println("Computer Turn");
 		computerInput();
 		printArray();
 		String firstCheck = checkWinDraw();
@@ -133,17 +156,9 @@ public class TicTacToe {
 		}
 	}
 
-	//main function to initialize and call rungame function.
 	
-	public static void main(String[] args) {
-		
-		for(int i=0; i<3; i++) {
-			for(int j=0; j<3; j++) {
-				mArray[i][j] = "";
-			}
-		}		
-		runGame();
-	}
+	
+	
 
 	
 }
