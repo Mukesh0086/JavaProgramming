@@ -11,7 +11,9 @@ public class TemperatureConversion {
 		String type=Utility.readString();
 		System.out.println("Enter temperature value");
 		int temperature=Utility.readInteger();
-		temperatureConversion(type, temperature);
+		double result=temperatureConversion(type, temperature);
+		System.out.println(result);
+		
 	
 	}
 	
@@ -19,23 +21,26 @@ public class TemperatureConversion {
 	 * convert to either in celsius or fahrenheit based on type  	
 	 */
 	
-	public static void temperatureConversion(String type,int temperature)
+	public static double temperatureConversion(String type,int temperature)
 	{
+		double calculatedValue=0.0;
 		
 		if(type.equalsIgnoreCase("far"))
 		{	
-			double fahrenheit=((temperature)*(9/5)+32);
-			System.out.println("Fahrenheit="+fahrenheit);
+			calculatedValue=(((temperature)*(9))/5+32);
+			
 		}
 		else if(type.equalsIgnoreCase("cel"))
 		{
-			double celsius=((temperature-32)*(5/9));
-			System.out.println("Celsius="+celsius);
+			calculatedValue=(((temperature-32)*(5))/(9));
+			
 		}
 		else
 		{
 			System.out.println("Invalid input please choose cel or far");
 		}
+		
+		return calculatedValue;
 	}
 
 }

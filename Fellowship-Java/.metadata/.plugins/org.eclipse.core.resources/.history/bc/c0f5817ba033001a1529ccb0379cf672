@@ -1,0 +1,16 @@
+package com.bridgelabz.junitProgramming;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TemperatureConversionTest {
+
+	@Test
+	public static void temperartureConversionTest()
+	{
+	double result=TemperatureConversion.temperatureConversion("cel", 60);
+	System.out.println(result);
+	assertEquals(140.0, result, 0.0);
+	}
+}

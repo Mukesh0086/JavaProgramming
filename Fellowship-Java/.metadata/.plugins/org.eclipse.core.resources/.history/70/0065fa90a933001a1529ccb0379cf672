@@ -1,0 +1,37 @@
+package com.bridgelabz.algorithmicProgramming;
+
+import com.bridgelabz.utility.Utility;
+
+public class DayOfWeek {
+	
+	//main method to call functions and input processing
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Enter the day");
+		int day=Utility.readInteger();
+		System.out.println("Enter the month");
+		int month=Utility.readInteger();
+		System.out.println("Enter the year");
+		int year=Utility.readInteger();
+		int dayOfWeek=Utility.dayOfWeek(day, month, year);
+		
+		switch(dayOfWeek)
+		{
+		case 0:System.out.println("Sunday");break;
+		case 1:System.out.println("Monday");break;
+		case 2:System.out.println("Tuesday");break;
+		case 3:System.out.println("Wednesday");break;
+		case 4:System.out.println("Thursday");break;
+		case 5:System.out.println("Friday");break;
+		case 6:System.out.println("Saturday");break;
+		}
+		
+	}
+	
+	/*The below dayOfWeek method takes 3 inputs day ,month ,year and apply the formula
+	 * and return a integer. In main method the appropriate day of week is printed using switch case 
+	 */
+	
+	
+}

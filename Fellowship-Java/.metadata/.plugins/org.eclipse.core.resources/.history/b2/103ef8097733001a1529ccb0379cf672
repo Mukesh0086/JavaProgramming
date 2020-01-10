@@ -1,0 +1,75 @@
+package com.bridgelabz.algorithmicProgramming;
+
+import java.util.ArrayList;
+
+public class PrimeAndAnagram {
+	
+	//main method to call functions and input processing
+	
+	public static void main(String[] args) {
+		ArrayList<Integer> primeList=new ArrayList<Integer>();
+		ArrayList<Integer> primePalindromeList=new ArrayList<Integer>();
+		primeList=printIfPrimeAndAnagram();
+		
+		primePalindromeList=primePalindrome(primeList);
+	}
+	
+	/*The below printifPrime method prints the prime numbers from the range between 
+	 * 1 and 1000 by iteration
+	 */
+	
+	public static ArrayList<Integer> printIfPrimeAndAnagram(){
+	
+		int number=2;
+		ArrayList<Integer> primenumbers=new ArrayList<Integer>();
+		while(number<1000) {
+			int count=0;
+			for(int i=2;i<number;i++)
+			{
+				if(number%i==0)
+				{
+					count=count+1;
+				}
+			}
+			if(count==0)
+			{
+				primenumbers.add(number);
+				
+			}
+			number=number+1;
+			
+		}
+		return primenumbers;
+		
+	}
+	
+	public static ArrayList<Integer> primePalindrome( ArrayList<Integer> primeList)
+	{
+		
+		ArrayList<Integer> primePalindrome=new ArrayList<Integer>();
+		
+		int remainder;
+		for(Integer primeNumber:primeList)
+		{
+			int palindrome = 0;
+			while(primeNumber>1)
+			{
+				
+				remainder=primeNumber%10;
+				palindrome=palindrome*10+remainder;
+				primeNumber=primeNumber/10;
+			}
+			
+			if(palindrome==primeNumber)
+			{
+				primePalindrome.add(palindrome);
+				System.out.println(palindrome);
+				
+			}
+		}
+		return primePalindrome;
+	}
+
+}
+
+//End of the Program

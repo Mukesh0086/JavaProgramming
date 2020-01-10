@@ -1,0 +1,15 @@
+package com.bridgelabz.junitProgramming;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TemperatureConversionTest {
+
+	@Test
+	public static temperartureConversionTest()
+	{
+		int farenheit=TemperatureConversion.temperatureConversion("far", 60);
+		assertEquals(message, expected, actual);
+	}
+}

@@ -12,39 +12,10 @@ public class FlipCoins {
 		
 		int turns=Utility.readInteger();
 		
-		int headTailPercentage=flipsCoin(turns);
+		int headTailPercentage=Utility.flipsCoin(turns);
 		
-		System.out.println(headTailPercentage);
+		System.out.println("The Percentage of Head vs Tail is "+headTailPercentage);
 	}
-	
-/* The below flipsCoin method will take number of turns as input and generate
- * a random value for each turns equate to head or possibility and returns the 
- * percentage. 	
- */
-	
-	public static int flipsCoin(int turns)
-	{
-		int head=0,tail=0;
-		
-		while(turns>0)
-		{
-			double result=Math.random();
-			if(result>0.5)
-			{
-				head=head+1;
-			}
-			else
-			{
-				tail=tail+1;
-			}
-			turns=turns-1;
-		}
-		
-		return ((head*100)/tail);
-	}
-	
-	
-
 }
 
 	//End of program

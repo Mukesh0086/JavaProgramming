@@ -10,18 +10,11 @@ public class StringReplace {
 		String str="Hello <<username>>";
 		System.out.println("Enter the string to replace <<username>>");
 		String replace=Utility.readString();
-		String result=replace(str,replace);
+		String result=Utility.replace(str,replace);
 		System.out.println(result);
 	}
 	
-	/* The below replace method takes a replace string and replaces <<username>>
-	 * with replace string value 	
-	 */
 	
-	public static String replace(String str,String replace)
-	{
-		return str.replaceFirst("<<username>>",replace);
-	}
 
 }
 

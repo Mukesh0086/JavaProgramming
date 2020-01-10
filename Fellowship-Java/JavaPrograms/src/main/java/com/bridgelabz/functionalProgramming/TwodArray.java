@@ -13,7 +13,7 @@ public class TwodArray {
 		System.out.println("Enter Columns");
 		int columns=Utility.readInteger();
 		double addArray[][]=twodArrayInputs(rows, columns);
-		print2dArray(addArray, rows, columns);
+		Utility.print2dArray(addArray, rows, columns);
 		
 		
 	}
@@ -46,26 +46,8 @@ public class TwodArray {
 		return twodArray;
 				
 	}
-	
-	/* The below print2dArray method takes rows ,columns and array from input
-	 *  method and then prints the value
-	 */
-	
-	public static double [][] print2dArray(double [][]twodArray,int rows,int columns)
-	{
-		//PrintWriter pw=new PrintWriter(System.out,true);
-		for(int i=0;i<rows;i++)
-		{
-			for(int j=0;j<columns;j++)
-			{
-				System.out.print((twodArray[i][j])+" ");
-			}
-			System.out.println("");
-		}
-		return twodArray;
-		
-	}
-	
 }
+	
+	
 
 //	End of program

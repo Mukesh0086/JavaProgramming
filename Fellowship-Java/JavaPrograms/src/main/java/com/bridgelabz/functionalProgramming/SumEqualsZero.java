@@ -17,7 +17,7 @@ public class SumEqualsZero {
 			arr[i]=a;
 		}
 		ArrayList<Integer> alist=new ArrayList<Integer>();
-		alist=sumOfThreeNumberEqualsZero(arr);
+		alist=Utility.sumOfThreeNumberEqualsZero(arr);
 		for(int i=0;i<alist.size();)
 		{
 			System.out.print(alist.get(i)+" ");
@@ -30,32 +30,7 @@ public class SumEqualsZero {
 	}
 	
 
-	/* The below sum of three numbers equals 0 method takes one integer array 
-	 * iterate through it and if sum equals 0 the value ,the numbers are stored 
-	 * in arraylist 	
-	 */
 	
-	public static ArrayList<Integer> sumOfThreeNumberEqualsZero(int [] arr){
-		ArrayList<Integer> list=new ArrayList<Integer>();
-		int length=arr.length;
-		for(int i=0;i<length;i++)
-		{
-			for(int j=i+1;j<length;j++)
-			{
-				for(int k=j+1;k<length;k++)
-				{
-					if(arr[i]+arr[j]+arr[k]==0)
-					{
-						list.add(arr[i]); //adding values  arraylist
-						list.add(arr[j]);
-						list.add(arr[k]);
-					}
-				}
-			}
-		}
-		
-		return list;
-	}
 
 }
 

@@ -14,7 +14,7 @@ public class WindChill {
 		int speed=Utility.readInteger();
 		if(temperature<=50 && speed <=120 && speed>3)
 		{
-			double result=windChill(temperature, speed);
+			double result=Utility.windChill(temperature, speed);
 			System.out.println(result);
 		}
 		else
@@ -24,14 +24,6 @@ public class WindChill {
 		
 	}
 	
-	/* The below windChill method will take 2 integer temperature and speed
-	 *  as input and calculate wind stores in a double and returns the wind 	
-	 */
 	
-	public static double windChill(int t,int v)
-	{
-		double wind=35.74+0.6215*t+(0.4275*t-35.75)*Math.pow(v, 0.16);
-		return wind;
-	}
 
 }
