@@ -44,9 +44,21 @@ public class PrimeAndAnagram {
 		
 	}
 	
-	public boolean isAnagram(int number)
+	public static boolean isAnagram(int number)
 	{
+		boolean flag=false;
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return flag;
 	}
 
 }

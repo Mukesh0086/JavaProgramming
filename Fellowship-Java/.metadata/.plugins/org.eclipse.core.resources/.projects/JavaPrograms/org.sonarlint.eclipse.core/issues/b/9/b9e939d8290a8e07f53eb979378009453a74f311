@@ -1,25 +1,25 @@
 
-ssquid:S1854"?Remove this useless assignment to local variable "fewestNotes".(ÿ°ˆ°8Í¸ù©ø-Hæ	RMAJORZ
+l
+squid:S1062"9Replace this use of System.out or System.err by a logger.(›Á’ô8Š…é©ø-HçRMAJORZ
 CODE_SMELL
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ã’Ñ‘8‘şø¦ø-HÚ	RMINORZ
+ssquid:S1854"?Remove this useless assignment to local variable "fewestNotes".(Ã’Ñ‘8‹è„§ø-HèRMAJORZ
+CODE_SMELL
+bsquid:S1751."5Remove this "break" statement or make it conditional.(›ûä·8¹×ƒªø-HéRMAJORZBUG
+©squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¢ÍìÕÿÿÿÿÿ8Ë‡€§ø-HêRMINORZ
+CODE_SMELL
+ssquid:S1854"?Remove this useless assignment to local variable "fewestNotes".(ÿ°ˆ°8Í¸ù©ø-HëRMAJORZ
 CODE_SMELL
 l
-squid:S106%"9Replace this use of System.out or System.err by a logger.(¨í‘Õ8‘şø¦ø-HÜ	RMAJORZ
+squid:S106%"9Replace this use of System.out or System.err by a logger.(¨í‘Õ8‘şø¦ø-HìRMAJORZ
+CODE_SMELL
+’squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(üĞì¨üÿÿÿÿ8Ë‡€§ø-HíRMINORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(²õ¹Ì8âÎÁ¡ø-H¢	RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(²õ¹Ì8âÎÁ¡ø-HîRMAJORZ
 CODE_SMELL
-l
-squid:S1062"9Replace this use of System.out or System.err by a logger.(›Á’ô8Š…é©ø-Há	RMAJORZ
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê»áÉÿÿÿÿÿHïRMINORZ
 CODE_SMELL
-bsquid:S1751."5Remove this "break" statement or make it conditional.(›ûä·8¹×ƒªø-Hê	RMAJORZBUG
-ssquid:S1854"?Remove this useless assignment to local variable "fewestNotes".(Ã’Ñ‘8‹è„§ø-Hß	RMAJORZ
+dsquid:S1481"0Remove this unused "fewestNotes" local variable.(Ã’Ñ‘8Í¸ù©ø-HğRMINORZ
 CODE_SMELL
-dsquid:S1481"0Remove this unused "fewestNotes" local variable.(Ã’Ñ‘8Í¸ù©ø-Hç	RMINORZ
-CODE_SMELL
-©squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¢ÍìÕÿÿÿÿÿ8Ë‡€§ø-Hİ	RMINORZ
-CODE_SMELL
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê»áÉÿÿÿÿÿH¤	RMINORZ
-CODE_SMELL
-’squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(üĞì¨üÿÿÿÿ8Ë‡€§ø-HŞ	RMINORZ
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ã’Ñ‘8‘şø¦ø-HñRMINORZ
 CODE_SMELL

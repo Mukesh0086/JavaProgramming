@@ -1,0 +1,30 @@
+package com.bridgelabz.algorithmicProgramming;
+
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.BufferedReader;
+
+
+
+public class BinarySearchFromFile {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public static String readFile()
+	{
+		
+		File file = new File("C:\\Users\\pankaj\\Desktop\\test.txt"); 
+		  
+		BufferedReader br = new BufferedReader(new FileReader(file)); 
+		return null;
+	}
+	
+	public static boolean findWord(String s)
+	{
+		return false;
+	}
+
+}

@@ -1,7 +1,5 @@
 package com.bridgelabz.basicProgramming;
 
-import java.text.DecimalFormat;
-
 import com.bridgelabz.utility.Utility;
 
 public class Harmonic {

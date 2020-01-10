@@ -19,16 +19,17 @@ public class TemperatureConversion {
 	 * convert to either in celsius or fahrenheit based on type  	
 	 */
 	
-	public static void temperatureConversion(String type,int temperarture)
+	public static void temperatureConversion(String type,int temperature)
 	{
+		
 		if(type.equalsIgnoreCase("far"))
-		{
-			double fahrenheit=(temperarture*(9/5)+32);
+		{	
+			double fahrenheit=((temperature)*(9/5)+32);
 			System.out.println("Fahrenheit="+fahrenheit);
 		}
 		else if(type.equalsIgnoreCase("cel"))
 		{
-			double celsius=((temperarture-32)*(5/9));
+			double celsius=((temperature-32)*(5/9));
 			System.out.println("Celsius="+celsius);
 		}
 		else

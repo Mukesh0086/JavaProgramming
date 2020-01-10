@@ -1,0 +1,45 @@
+package com.bridgelabz.algorithmicProgramming;
+
+public class demo {
+	public static void main(String[] args) {
+		int [] arr= {1,6,7,9,12,69,103,501};
+		int li=0;
+		int hi=arr.length-1;
+		int mi=(li+hi)/2;
+		int result=binarySearch(li,hi,mi,arr,69);
+		System.out.println(result);
+	}
+	
+	public static int binarySearch(int li,int hi,int mi,int [] arr,int key)
+	{
+		int result=0;
+		while(li<=hi)
+		{
+			mi=(li+hi)/2;
+			if(arr[mi]==key)
+			{
+				System.out.println(mi);
+				result=mi;
+				break;
+			}
+			if(arr[mi]<key)
+			{
+				li=mi+1;
+			}
+			if(arr[mi]>key)
+			{
+				hi=mi-1;
+			}
+		}
+		return mi;
+				
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+}

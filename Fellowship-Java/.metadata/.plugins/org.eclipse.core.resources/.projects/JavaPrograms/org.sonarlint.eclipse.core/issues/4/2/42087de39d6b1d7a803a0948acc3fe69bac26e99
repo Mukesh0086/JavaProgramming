@@ -1,5 +1,7 @@
 
-àsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÌó§H≤RMINORZ
+ésquid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(†£ˇ†H®
+RMINORZ
 CODE_SMELL
-ésquid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(†£ˇ†H≥RMINORZ
+àsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÌó§H©
+RMINORZ
 CODE_SMELL

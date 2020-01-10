@@ -1,28 +1,22 @@
 
-j
-squid:S106*"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿHÀRMAJORZ
-CODE_SMELL
-esquid:S1197"8Move the array designator from the variable to the type.(õ€ìòHÁRMINORZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ–†£HÂRMINORZ
-CODE_SMELL
-dsquid:S1197"8Move the array designator from the variable to the type.(‚‰´HÃRMINORZ
+}squid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(Ê€ºÒÿÿÿÿÿHŽRMAJORZ
 CODE_SMELL
 j
-squid:S106A"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿHÄRMAJORZ
+squid:S106("9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿHˆRMAJORZ
 CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(êý‰ÝúÿÿÿÿHÅRMAJORZ
+dsquid:S1197"8Move the array designator from the variable to the type.(‚‰´H†RMINORZ
 CODE_SMELL
-\squid:S1481"/Remove this unused "printArray" local variable.(õ€ìòHÆRMINORZ
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ–†£H‰RMINORZ
 CODE_SMELL
 e
-squid:S106?"9Replace this use of System.out or System.err by a logger.(˜™ðÎHÇRMAJORZ
-CODE_SMELL
-ksquid:S1854">Remove this useless assignment to local variable "printArray".(õ€ìòHÈRMAJORZ
+squid:S106="9Replace this use of System.out or System.err by a logger.(˜™ðÎHŠRMAJORZ
 CODE_SMELL
 j
-squid:S106"9Replace this use of System.out or System.err by a logger.(õÏ…ÙúÿÿÿÿHÉRMAJORZ
+squid:S106?"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿH‹RMAJORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(Ê€ºÒÿÿÿÿÿHÊRMAJORZ
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(õÏ…ÙúÿÿÿÿH‡RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(êý‰ÝúÿÿÿÿHRMAJORZ
 CODE_SMELL

@@ -1,0 +1,18 @@
+
+Usquid:S1643"Use a StringBuilder instead.(ÚåÕúÿÿÿÿ8µ±áÑø-HòRMINORZ
+CODE_SMELL
+msquid:S1854#"9Remove this useless assignment to local variable "words".(ç®‡©8²ÏÓø-H›RMAJORZ
+CODE_SMELL
+zsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(„–©ëüÿÿÿÿ8Äª‰Ñø-HµRMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‰»8µÄºÑø-HšRMAJORZ
+CODE_SMELL
+^squid:S1481#"*Remove this unused "words" local variable.(ç®‡©8²ÏÓø-HœRMINORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÎ¤ÏH¨RMINORZ
+CODE_SMELL
+ysquid:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(„–©ëüÿÿÿÿ8İšßÑø-HëRBLOCKERZBUG
+l
+squid:S106""9Replace this use of System.out or System.err by a logger.(Ü•«8ÿéÔø-H¢RMAJORZ
+CODE_SMELL

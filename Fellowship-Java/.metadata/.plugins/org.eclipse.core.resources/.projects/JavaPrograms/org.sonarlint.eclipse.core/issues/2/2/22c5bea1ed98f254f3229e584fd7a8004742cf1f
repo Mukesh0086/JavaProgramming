@@ -1,0 +1,17 @@
+
+\squid:S1125"(Remove the literal "true" boolean value.(ÿ™ûÕ8á¤²Èø-HâRMINORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÎ¤ÏHŞRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡“ÄÀúÿÿÿÿ8á¤²Èø-HàRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶§…úşÿÿÿÿ8á¤²Èø-HáRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(°ÎğŞ8á¤²Èø-HäRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûÎúÿÿÿÿ8á¤²Èø-HãRMAJORZ
+CODE_SMELL

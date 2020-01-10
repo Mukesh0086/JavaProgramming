@@ -1,0 +1,27 @@
+
+public class demo {
+	
+	public static void main(String[] args) {
+		
+		int a=1;
+		check(a);
+	}
+	public static void clearScreen() {  
+	    System.out.print("\033[H\033[2J");  
+	    System.out.flush();  
+	}  
+	static void check(int a)
+	{
+		
+		System.out.print(a);
+		clearScreen();
+		a=a+1;
+		if(a<10)
+		{
+			check(a);
+		}
+		
+	}
+}
+
+

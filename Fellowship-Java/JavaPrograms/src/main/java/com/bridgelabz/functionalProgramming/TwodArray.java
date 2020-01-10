@@ -1,7 +1,5 @@
 package com.bridgelabz.functionalProgramming;
 
-import java.io.PrintWriter;
-
 import com.bridgelabz.utility.Utility;
 
 public class TwodArray {
@@ -15,7 +13,7 @@ public class TwodArray {
 		System.out.println("Enter Columns");
 		int columns=Utility.readInteger();
 		double addArray[][]=twodArrayInputs(rows, columns);
-		double printArray[][]=print2dArray(addArray, rows, columns);
+		print2dArray(addArray, rows, columns);
 		
 		
 	}

@@ -1,0 +1,23 @@
+
+public class demo {
+	
+	public static void main(String[] args) {
+		
+		int a=1;
+		check(a);
+	}
+	static void check(int a)
+	{
+		
+		System.out.print(a);
+		System.out.flush();
+		a=a+1;
+		if(a<10)
+		{
+			check(a);
+		}
+		
+	}
+}
+
+

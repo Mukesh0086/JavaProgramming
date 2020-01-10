@@ -1,16 +1,16 @@
 
-rsquid:S2184 "@Cast one of the operands of this integer division to a "double".(ÑÛºõşÿÿÿÿ8ô¿¥ø-HıRMINORZBUG
-nsquid:S1854":Remove this useless assignment to local variable "length".(á´à“8œ”•¥ø-HÿRMAJORZ
-CODE_SMELL
 l
 squid:S106
-"9Replace this use of System.out or System.err by a logger.(´Ò¡É8Òâ€¥ø-HíRMAJORZ
+"9Replace this use of System.out or System.err by a logger.(´Ò¡É8Òâ€¥ø-H‚RMAJORZ
 CODE_SMELL
+tsquid:S2184 "BCast one of the operands of this division operation to a "double".(ÑÛºõşÿÿÿÿ8ô¿¥ø-H…RMINORZBUG
+rsquid:S2184 "@Cast one of the operands of this integer division to a "double".(ÑÛºõşÿÿÿÿ8ô¿¥ø-H‡RMINORZBUG
 q
-squid:S106"9Replace this use of System.out or System.err by a logger.(ú¹Ä×úÿÿÿÿ8»…ƒ¥ø-HôRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ú¹Ä×úÿÿÿÿ8»…ƒ¥ø-H†RMAJORZ
 CODE_SMELL
-tsquid:S2184 "BCast one of the operands of this division operation to a "double".(ÑÛºõşÿÿÿÿ8ô¿¥ø-HüRMINORZBUG
-_squid:S1481"+Remove this unused "length" local variable.(á´à“8œ”•¥ø-H€	RMINORZ
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê»áÉÿÿÿÿÿH„RMINORZ
 CODE_SMELL
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê»áÉÿÿÿÿÿHëRMINORZ
+rsquid:S1854">Remove this useless assignment to local variable "findLength".(ïÇÕ8ôèçÆø-H‰RMAJORZ
+CODE_SMELL
+csquid:S1481"/Remove this unused "findLength" local variable.(ïÇÕ8ôèçÆø-HŠRMINORZ
 CODE_SMELL
