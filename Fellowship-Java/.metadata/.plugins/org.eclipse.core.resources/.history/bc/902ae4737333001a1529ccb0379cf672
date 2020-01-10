@@ -29,10 +29,6 @@ public class DayOfWeek {
 		
 	}
 	
-	/*The below dayOfWeek method takes 3 inputs day ,month ,year and apply the formula
-	 * and return a integer. In main method the appropriate day of week is printed using switch case 
-	 */
-	
 	public static int dayOfWeek(int day, int month, int year) {
 		
 		int m0, y0, d0, x;
