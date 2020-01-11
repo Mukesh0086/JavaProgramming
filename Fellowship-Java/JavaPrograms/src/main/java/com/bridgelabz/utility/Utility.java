@@ -554,9 +554,6 @@ public class Utility {
 			}
 		}
 		
-		
-		
-		
 		return result;
 	}
 	
@@ -574,11 +571,6 @@ public class Utility {
 		
 		return str;
 	}
-	
-	
-
-
-
 	
 }
 	

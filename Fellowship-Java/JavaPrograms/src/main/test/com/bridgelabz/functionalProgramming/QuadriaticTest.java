@@ -6,6 +6,8 @@ import java.util.HashMap;
 
 import org.junit.Test;
 
+import com.bridgelabz.utility.Utility;
+
 public class QuadriaticTest {
 
 	@Test
@@ -15,7 +17,7 @@ public class QuadriaticTest {
 		HashMap<String, Float> result=new HashMap<String, Float>();
 		roots.put("root1", (float) -1.0);
 		roots.put("root2", (float) -1.0);
-		result=Quadriatic.QuadriaticRoots(1, 2, 1); //AssertEquals methodcamparing hashmap 
+		result=Utility.QuadriaticRoots(1, 2, 1); //AssertEquals methodcamparing hashmap 
 														//for the Quadriatic roots
 		assertEquals(roots, result);
 	}

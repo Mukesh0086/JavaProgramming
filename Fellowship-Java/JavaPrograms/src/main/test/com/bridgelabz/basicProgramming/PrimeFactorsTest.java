@@ -1,6 +1,7 @@
 package com.bridgelabz.basicProgramming;
 
 import com.bridgelabz.basicProgramming.*;
+import com.bridgelabz.utility.Utility;
 
 import static org.junit.Assert.*;
 
@@ -21,7 +22,7 @@ public class PrimeFactorsTest {
 		expectedList.add(2);
 		expectedList.add(2);
 		expectedList.add(2);
-		primeList=PrimeFactors.primeFactors(8);
+		primeList=Utility.primeFactors(8);
 		assertEquals(expectedList, primeList); //AssertEquals method to campare expected and actual lists
 		
 	}

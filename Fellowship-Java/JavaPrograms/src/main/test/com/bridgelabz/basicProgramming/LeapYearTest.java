@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.bridgelabz.basicProgramming.LeapYear;
+import com.bridgelabz.utility.Utility;
 
 public class LeapYearTest {
 
@@ -27,8 +28,8 @@ public class LeapYearTest {
 		
 		
 		assertTrue(year>1984);
-		assertEquals(false, LeapYear.isLeapYear(year)); //Testing for multiple of 100 and false condition
-		assertEquals(true, LeapYear.isLeapYear(2016)); //Testing for true condition
+		assertEquals(false, Utility.isLeapYear(year)); //Testing for multiple of 100 and false condition
+		assertEquals(true, Utility.isLeapYear(2016)); //Testing for true condition
 	}
 
 }

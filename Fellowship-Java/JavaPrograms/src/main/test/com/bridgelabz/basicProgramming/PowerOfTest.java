@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.bridgelabz.utility.Utility;
+
 public class PowerOfTest {
 	
 	int exp=3;
@@ -19,8 +21,8 @@ public class PowerOfTest {
 	
 	public void checkExponent() 
 	{
-		result=PowerOf.power(exp);
-		result1=PowerOf.power(exp2);
+		result=Utility.power(exp);
+		result1=Utility.power(exp2);
 		assertTrue(exp>0); //checking exp Entered is positive
 		assertTrue(result>0);//check the ouput is more than 0
 		
