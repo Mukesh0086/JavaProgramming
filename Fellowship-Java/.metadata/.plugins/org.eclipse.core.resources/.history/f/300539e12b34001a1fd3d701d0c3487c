@@ -560,21 +560,6 @@ public class Utility {
 		return result;
 	}
 	
-	/*The below regexPassageReplace method replaces the name fullName Phone and Date by using 
-	 * replaceAll function
-	 */
-	
-	public static String regexPassageReplace(String str,String name,String fullName,String phNumber,String date)
-	{
-		
-		str=str.replace("<<name>>", name);
-		str=str.replace("<<full name>>", fullName);
-		str=str.replace("xxxxxxxxxx", phNumber);
-		str=str.replace("01/01/2016", date);
-		
-		return str;
-	}
-	
 	
 
 
