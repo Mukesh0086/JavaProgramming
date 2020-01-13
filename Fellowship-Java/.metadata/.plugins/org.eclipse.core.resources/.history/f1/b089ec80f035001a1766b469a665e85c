@@ -1,0 +1,27 @@
+package com.bridgelabz.dataStructures;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+	
+	try {
+		BufferedReader br=new BufferedReader(new FileReader("/home/admin1/file.txt"));
+		String [] str=br.toString().split(" ");
+		System.out.println(str);
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	}
+}

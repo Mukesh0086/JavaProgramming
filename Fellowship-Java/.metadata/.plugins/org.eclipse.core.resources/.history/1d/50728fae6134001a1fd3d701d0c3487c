@@ -1,0 +1,18 @@
+package com.bridgelabz.algorithmicProgramming;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AnagramTest {
+
+	@Test
+	
+	
+	public void isAnagramTest() {
+		
+		
+		
+	}
+
+}

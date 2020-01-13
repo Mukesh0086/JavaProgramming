@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.bridgelabz.dataStructures.LinkedListDemo&apos; to &apos;LinkedList&apos;&#x0A;- Original project: &apos;JavaPrograms&apos;&#x0A;- Original element: &apos;com.bridgelabz.dataStructures.LinkedListDemo&apos;&#x0A;- Renamed element: &apos;com.bridgelabz.dataStructures.LinkedList&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinkedListDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.bridgelabz.dataStructures{LinkedListDemo.java[LinkedListDemo" matchStrategy="1" name="LinkedList" qualified="false" references="true" similarDeclarations="false" stamp="1578894613954" textual="false" version="1.0"/>
+</session>

@@ -572,6 +572,113 @@ public class Utility {
 		return str;
 	}
 	
+
+	/* The below  temperatureConversion Method takes two arguments type and temperature and 
+	 * convert to either in celsius or fahrenheit based on type  	
+	 */
+	
+	public static double temperatureConversion(String type,int temperature)
+	{
+		double calculatedValue=0.0;
+		
+		if(type.equalsIgnoreCase("far"))
+		{	
+			calculatedValue=(((temperature)*(9))/5+32);
+			
+		}
+		else if(type.equalsIgnoreCase("cel"))
+		{
+			calculatedValue=(((temperature-32)*(5))/(9));
+			
+		}
+		else
+		{
+			System.out.println("Invalid input please choose cel or far");
+		}
+		
+		return calculatedValue;
+	}
+	
+	
+	/* The below  ToDecimal Method takes a binary number as argument  and 
+	 * convert to decimal by taking each places and multiplying with 2 power of respective positions  	
+	 */
+	
+	public static double toDecimal(double binary)
+	{
+		
+		String findLength=String.valueOf((int) binary);
+		
+		double decimal=0;
+		int i=0;
+		while(binary>=1)
+		{
+			
+			int modulus=(int) (binary%10);
+			binary=(int) binary/10;
+			decimal=decimal+modulus*Math.pow(2, i);
+			i=i+1;
+		}
+		
+		return decimal;
+	}
+	
+	/* The below  fewestNotes Method takes two arguments type and temperature and 
+	 * convert to either in celsius or fahrenheit based on type  	
+	 */
+	
+	
+	
+	public static ArrayList<Integer> fewestNotes(int [] result,int amount,int index,int count)
+	{
+		ArrayList<Integer> notes=new ArrayList<Integer>();
+		while(amount>0)
+		{
+			if(amount>=result[index])
+			{
+				count=count+1;
+				amount=amount-result[index];
+				System.out.println(result[index]);
+				notes=fewestNotes(result, amount, index,count);
+			}
+			else
+			{
+				
+				index=index+1;
+				notes=fewestNotes(result, amount, index,count);
+			}
+			break;
+			
+		}
+		if(amount==0)
+			System.out.println("Number of fewest notes required is "+count);
+			
+		return notes;
+		
+	}
+	
+	
+	/* The below  DecimalToBinary Method takes decimal number and convert it to 
+	 * Binary by dividing it by 2 and storing remainder until number reaches 0	
+	 */
+	
+	public static ArrayList<Integer> decimalToBinary(int number){
+		
+		ArrayList<Integer> binaryList=new ArrayList<Integer>();
+		
+		int bit=0;
+		while(number>=1)
+		{
+			bit=number%2;
+			binaryList.add(bit);
+			number=number/2;	
+			
+		}
+		return binaryList;
+		
+	}
+
+	
 }
 	
 	

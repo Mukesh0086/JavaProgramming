@@ -64,22 +64,7 @@ public class GenericSorting {
 		}
 		return arr;
 	}
-	
-	
 
-	public static boolean AnagramStrings(String string1, String string2) {
-		char ar1[] = string1.toCharArray();
-		char ar2[] = string2.toCharArray();
-		String a = String.valueOf(charsort(ar1));
-		String b = String.valueOf(charsort(ar2));
-
-		if (a.compareToIgnoreCase(b) == 0) {
-			return true;
-		}
-		return false;
-	}
-
-	
 	
 	public static char[] charsort(char arr[]) {
 		int n = arr.length;
