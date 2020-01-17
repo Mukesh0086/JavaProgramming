@@ -1,0 +1,70 @@
+package com.bridgelabz.dataStructures;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+public class Demo {
+	static Node head;
+	public static void main(String[] args) {
+		String [] words= {"mango","banana","nuts","apple"};
+		for(int i=0;i<words.length;i++)
+			
+		{
+			insert(words[i]);
+		}
+		display();
+		
+	}
+	public static void insert(String str)
+	{
+		int campare=0;
+		Node node=new Node();
+		node.data=str;
+		node.next=null;
+		
+		if(head==null)
+		{
+			node=head;
+		}
+		else
+		{
+			Node n=head;
+			while(n!=null)
+			{
+				campare=n.data.toString().compareToIgnoreCase(str);
+				System.out.println(campare);
+				n=n.next;
+			}
+			n.next=node;
+		}
+	}
+	
+	public static void display()
+	{
+		if(head==null)
+		{
+			System.out.println("empty list");
+		}
+		else
+		{
+			Node n=head;
+			while(n!=null)
+			{
+				System.out.println(n.data);
+			}
+			System.out.println(n.data);
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

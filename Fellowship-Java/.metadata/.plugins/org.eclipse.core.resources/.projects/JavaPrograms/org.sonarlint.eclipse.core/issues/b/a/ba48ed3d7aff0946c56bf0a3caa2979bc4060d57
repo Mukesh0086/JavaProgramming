@@ -1,18 +1,18 @@
 
-Usquid:S1643"Use a StringBuilder instead.(ÚåÕúÿÿÿÿ8µ±áÑø-HòRMINORZ
-CODE_SMELL
-msquid:S1854#"9Remove this useless assignment to local variable "words".(ç®‡©8²ÏÓø-H›RMAJORZ
-CODE_SMELL
-zsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(„–©ëüÿÿÿÿ8Äª‰Ñø-HµRMINORZ
+msquid:S1854#"9Remove this useless assignment to local variable "words".(ç®‡©8²ÏÓø-HÚRMAJORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‰»8µÄºÑø-HšRMAJORZ
+squid:S106""9Replace this use of System.out or System.err by a logger.(Ü•«8ÿéÔø-HÛRMAJORZ
 CODE_SMELL
-^squid:S1481#"*Remove this unused "words" local variable.(ç®‡©8²ÏÓø-HœRMINORZ
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÎ¤ÏHÜRMINORZ
 CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÎ¤ÏH¨RMINORZ
+zsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(„–©ëüÿÿÿÿ8Äª‰Ñø-HİRMINORZ
 CODE_SMELL
-ysquid:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(„–©ëüÿÿÿÿ8İšßÑø-HëRBLOCKERZBUG
+^squid:S1481#"*Remove this unused "words" local variable.(ç®‡©8²ÏÓø-HŞRMINORZ
+CODE_SMELL
+ysquid:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(„–©ëüÿÿÿÿ8İšßÑø-HßRBLOCKERZBUG
 l
-squid:S106""9Replace this use of System.out or System.err by a logger.(Ü•«8ÿéÔø-H¢RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‰»8µÄºÑø-HàRMAJORZ
+CODE_SMELL
+Usquid:S1643"Use a StringBuilder instead.(ÚåÕúÿÿÿÿ8µ±áÑø-HáRMINORZ
 CODE_SMELL

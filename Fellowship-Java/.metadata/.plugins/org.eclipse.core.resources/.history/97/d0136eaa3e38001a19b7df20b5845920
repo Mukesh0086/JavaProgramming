@@ -1,0 +1,90 @@
+package com.bridgelabz.dataStructures;
+
+import com.bridgelabz.utility.Utility;
+
+public class Stack {
+	
+	public static void main(String[] args) {
+		
+		Stack stack=new Stack();
+		
+		System.out.println("Enter the equation");
+		String equation=Utility.readString();
+		char [] equationArray=equation.toCharArray();
+		for(char letter:equationArray)
+		{
+			if((letter=='[')|| (letter=='{')|| (letter=='('))
+			{
+				push(letter);
+			}
+			else {
+				
+				switch(letter)
+
+			{
+				
+				case '}': if(pe)
+				
+				
+				
+			}
+				
+				
+			}
+		}
+				
+		
+		
+		
+		
+	}
+	static Node head;
+	
+	public static<T> void push(T k)
+	{
+		Node n=new Node();
+		n.data=k;
+		n.next=null;
+		if(head==null)
+		{
+			head=n;
+			
+		}
+		else
+		{
+			
+			n.next=head;
+			head=n;
+		}
+	}
+	
+	
+
+	public void pop()
+	{
+		head=head.next;
+		
+		
+	}
+	
+	public static <T> Object peek()
+	{
+		
+		return head.data;
+		
+	}
+	
+	
+	public void show()
+	{
+		
+		Node n=head;
+		while(n!=null)
+		{
+			System.out.println(n.data);
+			n=n.next;
+		}
+		//System.out.println(n.data);
+	}
+
+}

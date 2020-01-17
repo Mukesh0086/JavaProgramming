@@ -1,0 +1,23 @@
+package com.bridgelabz.algorithmicProgramming;
+
+public class QuickSort {
+
+	/*
+	 * This function takes last element as pivot,places the pivot element at its
+	 * correct position in sorted array, and places all smaller (smaller than pivot)
+	 * to left of pivot and all greater elements to right of pivot
+	 */
+
+
+	// Driver program
+	public static void main(String args[]) {
+		int arr[] = { 10, 7, 8, 9, 1, 5 };
+		int n = arr.length;
+
+		QuickSort ob = new QuickSort();
+		ob.sort(arr, 0, n - 1);
+
+		System.out.println("sorted array");
+		printArray(arr);
+	}
+}

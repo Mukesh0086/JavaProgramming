@@ -1,0 +1,267 @@
+package com.bridgelabz.dataStructures;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+import com.bridgelabz.utility.Utility;
+
+public class OrderedList {
+	Node head;
+	static OrderedList list=new OrderedList();
+	
+	public static void main(String[] args) {
+		
+		
+		//reading from file and storing it in String array using Buffered Reader
+		String[] str=null;
+		try {
+			BufferedReader br=new BufferedReader(new FileReader("/home/admin1/file.txt"));
+			String lines=br.readLine();
+			while(lines!=null)
+				{
+			
+				
+				str = lines.split(" ");
+				for (String words : str) {
+					
+					list.insertSort(words);
+					
+					
+					lines=br.readLine();
+									
+				}
+			}
+		
+	} catch (FileNotFoundException e) {
+		e.printStackTrace();
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+	
+		
+		//Printing linkedlist before operation
+		System.out.println("from file to linked list");
+		list.show();
+		
+		System.out.println("Enter a string ");
+		String addlist=Utility.readString();
+		list.isPresent(addlist);
+		
+		//Printing linkedlist after operation
+		System.out.println("After user input and operation");
+		list.show();
+		
+		//writing into a file
+		
+		
+		
+	}
+	
+	
+	
+	public  void insertSort(String str)
+	{
+		System.out.println("hahaha");
+		int sort=0;
+		
+		Node node =new Node();
+		node.data=str;
+		node.next=null;
+		if(head==null)
+		{
+			head=node;
+			System.out.println("check if working");
+		}
+		else
+		{
+			Node n=head;
+			
+			while(n!=null)
+			{
+				int index=0;
+				index=index+1;
+				sort=n.data.toString().compareToIgnoreCase(str);
+				System.out.println(sort);
+				if(sort<0)
+				{
+					list.insert(str);
+					
+				}
+				else if(sort>=0)
+				{
+					
+				}
+					
+				n=n.next;
+			}
+			n.next=node;
+		}
+	}
+	
+	
+	
+	
+	
+	public void show()
+	{
+		
+		Node node=head;
+		
+			while(node.next!=null)
+			{
+				System.out.println(node.data);
+				node=node.next;
+			}
+			System.out.println(node.data);
+		
+		
+	}
+	
+	public <T> void isPresent(String str)
+	{
+		
+		int index=0;
+		
+		boolean flag = false;
+		Node node=head;
+		if(head==null)
+		{
+			node=head;
+		}
+		else
+		{
+
+			while (node!= null) {
+				int count=0;
+				index=index+1;
+				if (node.data.equals(str)) {
+					
+					
+					count=count+1;
+				}
+				
+				if(count>=1)
+				{
+					flag=true;
+					list.deleteAt(index-1);
+					break;
+				}
+				
+				
+				
+				
+				node = node.next;
+			}
+			if(flag==false)
+			{
+				list.insert(str);
+			}
+			
+			
+			
+		}
+		
+		
+	}
+		
+	
+	public void deleteAtStart()
+	{
+		head=head.next;
+	}
+	
+	public <T> void deleteAt(int index)
+	{
+		Node n=head;
+		for(int i=0;i<index-1;i++)
+		{
+			n=n.next;
+		}
+		Node node=n.next;
+		n.next=node.next;
+	}
+	
+	public <T> void deleteElement(T value)
+	{
+		boolean flag;
+		Node n=head;
+		
+		while(n!=null)
+		{
+			if(flag=n.data.equals(value))
+			{
+				Node node=n.next;
+				n.next=node.next;
+			}
+			n=n.next;
+		}
+		
+	}
+	
+	
+	public int linkedListLength()
+	{
+		int count=0;
+		if(head==null)
+		{
+			return 0;
+		}
+		else
+		{
+			Node n=head;
+			while(n!=null)
+			{
+				count=count+1;
+				n=n.next;
+			}
+		}
+		return count;
+	}
+	
+	public void deleteAtEnd()
+	{
+		Node n=head;
+		while(n.next!=null)
+		{
+			n=n.next;
+		}
+		n=null;
+		
+	}
+	public <T> void insertAt(int index,T data)
+	{
+		Node n=head;
+		Node node=new Node();
+		node.data=data;
+		node.next=null;
+		for(int i=0;i<index-1;i++)
+		{
+			n=n.next;
+		}
+		node.next=n.next;
+		n.next=node;
+	}
+	
+	public <T> void insert(T data)
+	{
+		Node node =new Node();
+		node.data=data;
+		node.next=null;
+		if(head==null)
+		{
+			head=node;
+			
+		}
+		else
+		{
+			Node n=head;
+			while(n.next!=null)
+			{
+				n=n.next;
+			}
+			n.next=node;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+package com.bridgelabz.dataStructures;
+
+public class BankingCounter {
+	Node head;
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public <T> void enQueue(T data)
+	{
+		Node n=new Node<T>();
+		n.data=data;
+		n.next=null;
+		if(head==null)
+		{
+			head=n;
+		}
+		else
+			
+	}
+
+}

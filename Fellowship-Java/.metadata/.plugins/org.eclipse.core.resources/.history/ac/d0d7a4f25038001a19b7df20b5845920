@@ -1,0 +1,55 @@
+package com.bridgelabz.dataStructures;
+
+public class BankingCounter {
+	static Node head;
+	
+	public static void main(String[] args) {
+		insert(21);
+		insert(32);
+		insert(217);
+		insert(325);
+		insert(114);
+		insert(63);
+		display();
+	}
+	
+	public static void dequeue()
+	{
+		head=head.next;
+		
+	}
+	
+	public static <T> void insert(T data)
+	{
+		Node node =new Node();
+		node.data=data;
+		node.next=null;
+		if(head==null)
+		{
+			head=node;
+			
+		}
+		else
+		{
+			Node n=head;
+			while(n.next!=null)
+			{
+				n=n.next;
+			}
+			n.next=node;
+		}
+	}
+	
+	
+	public static void display()
+	{
+		Node n=head;
+		while(n.next!=null)
+		{
+			System.out.println(n.data);
+			n=n.next;
+		}
+		System.out.println(n.data);
+	}
+
+}

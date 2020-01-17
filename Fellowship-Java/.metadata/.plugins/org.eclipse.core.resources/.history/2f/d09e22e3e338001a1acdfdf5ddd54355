@@ -1,0 +1,95 @@
+package com.bridgelabz.dataStructures;
+
+public class BankingCounter {
+	static Node head;
+	
+	public static void main(String[] args) {
+	
+		
+		enQueue(32);
+		enQueue(64);
+		enQueue(96);
+		enQueue(128);
+		
+		dequeue();
+		display();
+	}
+	public static Node generateTailPointer()
+	{
+		Node tail;
+		if(head==null)
+			
+		{
+			tail=head;
+		}
+		
+		else {
+			Node n=head;
+			while(n.next!=null)
+			{
+				n=n.next;
+			}
+			tail=n;
+			
+			
+			
+			
+		}
+		return tail;
+	}
+	
+	
+	public static <T> void enQueue(T data)
+	{
+		Node node=new Node<T>();
+		node.data=data;
+		node.next=null;
+		if(head==null)
+		{
+			head=node;
+		}
+		else
+		{
+			Node n=head;
+			while(n.next!=null)
+			{
+				n=n.next;
+			}
+			Node rear=n;
+			System.out.println(n.data);
+		}
+		
+	}
+	public static void deQueue()
+	{
+		head=head.next;
+		
+	}
+	
+	public static void dequeue()
+	{
+		head=head.next;
+		
+	}
+
+	
+	public static void display()
+	{
+		Node n=head;
+		if(head==null)
+		{
+			System.out.println("empty");
+		}
+		else
+		{
+			while(n.next!=null)
+			{
+				System.out.println(n.data);
+				n=n.next;
+			}
+			System.out.println(n.data);
+		}
+		
+	}
+
+}

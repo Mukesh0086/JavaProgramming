@@ -1,0 +1,68 @@
+package com.bridgelabz.dataStructures;
+
+public class Stack {
+	
+	public static void main(String[] args) {
+		
+		Stack stack=new Stack();
+		
+		stack.push(23);
+		stack.push(23);
+		stack.push(23);
+		
+		stack.push(46);
+		stack.push(69);
+		stack.peek();
+		
+		stack.pop();
+		stack.show();
+	}
+	Node head;
+	
+	public void push(int k)
+	{
+		Node n=new Node();
+		n.data=k;
+		n.next=null;
+		if(head==null)
+		{
+			head=n;
+			System.out.println("check");
+		}
+		else
+		{
+			
+			n.next=head;
+			head=n;
+		}
+	}
+	
+	
+
+	public void pop()
+	{
+		head=head.next;
+		
+	}
+	
+	public void peek()
+	{
+		System.out.println("peek");
+		System.out.println(head.data);
+		
+	}
+	
+	
+	public void show()
+	{
+		
+		Node n=head;
+		while(n!=null)
+		{
+			System.out.println(n.data);
+			n=n.next;
+		}
+		//System.out.println(n.data);
+	}
+
+}
