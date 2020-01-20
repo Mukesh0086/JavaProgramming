@@ -491,7 +491,7 @@ public class Utility {
 			if(count==0)
 			{
 				primenumbers.add(number);
-				System.out.println(number);
+				
 				
 			}
 			number=number+1;
@@ -756,8 +756,45 @@ public class Utility {
 			System.out.println(array[i]);
 		}
 	}
-
 	
+	
+	public static void primeRepresentation(ArrayList<Integer> primeList) {
+
+		int start = 0;
+		int end = 100;
+		int count = 0;
+		int ind = 0;
+		int[][] array = new int[10][];
+		for (int i = 0; i < 10; i++) {
+			ArrayList<Integer> subPrime = new ArrayList<Integer>();
+			for (Integer l1 : primeList) {
+				if (l1 >= start && l1 <= end) {
+					count++;
+					subPrime.add(l1);
+				}
+			}
+			array[ind] = new int[count];
+			int k = 0;
+			for (Integer ii : subPrime) {
+				array[ind][k] = ii;
+				k++;
+			}
+			ind++;
+			count = 0;
+			start = start + 100;
+			end = end + 100;
+		}
+		for (int[] i : array) {
+			for (int j : i) {
+				if (j == 0)
+					System.out.print(" ");
+				else
+					System.out.print(j + " ");
+			}
+			System.out.println();
+		}
+
+	}	
 }
 	
 	

@@ -1,12 +1,178 @@
 
-Ysquid:S1068"'Remove this unused "LOG" private field.(Ëì·şÿÿÿÿHõ	RMAJORZ
+csquid:S2140‹")Use "java.util.Random.nextInt()" instead.(“®¨üÿÿÿÿ8’£Å—û-HØ;RMINORZ
 CODE_SMELL
-jsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHö	RMINORZ
+lsquid:S1854w"8Remove this useless assignment to local variable "base".(‡¿€î8’£Å—û-Hı;RMAJORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ø¦…ÊÿÿÿÿÿH÷	RMAJORZ
+“squid:S2293ˆ"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰áÀãûÿÿÿÿ8’£Å—û-Hæ;RMINORZ
 CODE_SMELL
-nsquid:UselessImportCheck"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶Hø	RMINORZ
+r
+squid:S106¾"9Replace this use of System.out or System.err by a logger.(¬´ğÏûÿÿÿÿ8’£Å—û-HÏ;RMAJORZ
 CODE_SMELL
-lsquid:S1118
-":Add a private constructor to hide the implicit public one.(¹‹ó¿ıÿÿÿÿHù	RMAJORZ
+ssquid:S2184ê"@Cast one of the operands of this integer division to a "double".(ÑÛºõşÿÿÿÿ8’£Å—û-Hè;RMINORZBUG
+Xsquid:S1659§"#Declare "count" on a separate line.(ª’š€8’£Å—û-HÒ;RMINORZ
+CODE_SMELL
+m
+squid:S106è"9Replace this use of System.out or System.err by a logger.(˜™ğÎ8’£Å—û-Hï;RMAJORZ
+CODE_SMELL
+¥squid:S1319…"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ö”öŠ8’£Å—û-HË;RMINORZ
+CODE_SMELL
+dsquid:S1481â"/Remove this unused "findLength" local variable.(ïÇÕ8’£Å—û-Hã;RMINORZ
+CODE_SMELL
+esquid:S1481î"0Remove this unused "millisecond" local variable.(Õ¼œá8Ì–Åû-Hú>RMINORZ
+CODE_SMELL
+m
+squid:S106–"9Replace this use of System.out or System.err by a logger.(×•œ²8ü¯™Åû-HÜ?RMAJORZ
+CODE_SMELL
+]squid:S1659Ş"#Declare "time2" on a separate line.(¢¥§üÿÿÿÿ8’£Å—û-Hê;RMINORZ
+CODE_SMELL
+rsquid:S1197Ì"8Move the array designator from the variable to the type.(¤Í ¥ıÿÿÿÿ8’£Å—û-Hò;RMINORZ
+CODE_SMELL
+“squid:S2293ú"YReplace the type specification in this constructor call with the diamond operator ("<>").(üĞì¨üÿÿÿÿ8’£Å—û-HÑ;RMINORZ
+CODE_SMELL
+rsquid:S1197Û"8Move the array designator from the variable to the type.(õêûËúÿÿÿÿ8’£Å—û-Hİ;RMINORZ
+CODE_SMELL
+squid:S2293—"YReplace the type specification in this constructor call with the diamond operator ("<>").(µÀ*8’£Å—û-HŒ<RMINORZ
+CODE_SMELL
+usquid:S2184ê"BCast one of the operands of this division operation to a "double".(ÑÛºõşÿÿÿÿ8’£Å—û-Hş;RMINORZBUG
+Šsquid:S3776ù"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¾Ó¾À8ü¯™Åû-HÚ?RCRITICALZ
+CODE_SMELL
+r
+squid:S106ô"9Replace this use of System.out or System.err by a logger.(‘Ä¸Éùÿÿÿÿ8’£Å—û-Hí;RMAJORZ
+CODE_SMELL
+nsquid:UselessImportCheck"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶Hú;RMINORZ
+CODE_SMELL
+ssquid:S2184¸"ECast one of the operands of this subtraction operation to a "double".(ª¨Ä•8’£Å—û-HÖ;RMINORZBUG
+asquid:S1172¥",Remove this unused method parameter "stake".(ÔäÂô8’£Å—û-H—<RMAJORZ
+CODE_SMELL
+Usquid:S1659³" Declare "y0" on a separate line.(«áœ8’£Å—û-Hÿ;RMINORZ
+CODE_SMELL
+ªsquid:S1319ø"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¢ÍìÕÿÿÿÿÿ8’£Å—û-H†<RMINORZ
+CODE_SMELL
+ªsquid:S1319Å"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(èîóËüÿÿÿÿ8’£Å—û-Hƒ<RMINORZ
+CODE_SMELL
+^squid:S1125“")Remove the literal "false" boolean value.(Ó®Ö8’£Å—û-HÓ;RMINORZ
+CODE_SMELL
+®squid:S1319ø"tThe type of the "primeList" object should be an interface such as "List" rather than the implementation "ArrayList".(ˆ«Ô†ùÿÿÿÿ8’£Å—û-Hé;RMINORZ
+CODE_SMELL
+“squid:S2293Ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹Á³‡üÿÿÿÿ8’£Å—û-H<RMINORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨í‘Õ8’£Å—û-H“<RMAJORZ
+CODE_SMELL
+xsquid:S2184¹"ECast one of the operands of this subtraction operation to a "double".(àšã‰ıÿÿÿÿ8’£Å—û-Há;RMINORZBUG
+isquid:S3518L":Make sure "tail" can't be zero before doing this division.(ÅõÕ.8’£Å—û-HĞ;RCRITICALZBUG
+]squid:S1659·"#Declare "root2" on a separate line.(„İíşÿÿÿÿ8’£Å—û-H„<RMINORZ
+CODE_SMELL
+squid:S2293›"YReplace the type specification in this constructor call with the diamond operator ("<>").(—ğÍ¢8’£Å—û-H–<RMINORZ
+CODE_SMELL
+msquid:S1197°"8Move the array designator from the variable to the type.( ­¯ı8’£Å—û-H‘<RMINORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(äãó8ü¯™Åû-HÛ?RMINORZ
+CODE_SMELL
+tsquid:S1854î"?Remove this useless assignment to local variable "millisecond".(Õ¼œá8Ì–Åû-Hù>RMAJORZ
+CODE_SMELL
+l
+squid:S106à"9Replace this use of System.out or System.err by a logger.(¯ùÕ8’£Å—û-HŞ;RMAJORZ
+CODE_SMELL
+Usquid:S1659³" Declare "d0" on a separate line.(«áœ8’£Å—û-H‹<RMINORZ
+CODE_SMELL
+Vsquid:S1659<""Declare "tail" on a separate line.(’úÔÔ8’£Å—û-Hä;RMINORZ
+CODE_SMELL
+r
+squid:S106š"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ü¯™Åû-HŞ?RMAJORZ
+CODE_SMELL
+qsquid:S3518É";Make sure "count" can't be zero before doing this division.(ı»Íşÿÿÿÿ8’£Å—û-HŠ<RCRITICALZBUG
+§squid:S1319³"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ÄÖóÇúÿÿÿÿ8’£Å—û-Hñ;RMINORZ
+CODE_SMELL
+…squid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(Ê€ºÒÿÿÿÿÿ8’£Å—û-HÉ;RMAJORZ
+CODE_SMELL
+ªsquid:S1319•"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“ó®áüÿÿÿÿ8’£Å—û-H‡<RMINORZ
+CODE_SMELL
+Xsquid:S1659w"$Declare "result" on a separate line.(‡¿€î8’£Å—û-H•<RMINORZ
+CODE_SMELL
+]squid:S1125¤"(Remove the literal "true" boolean value.(°¸ï8’£Å—û-Hë;RMINORZ
+CODE_SMELL
+r
+squid:S106ß"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8’£Å—û-Hà;RMAJORZ
+CODE_SMELL
+Tsquid:S1659³"Declare "x" on a separate line.(«áœ8’£Å—û-H<RMINORZ
+CODE_SMELL
+¸squid:S1319•"~The type of the "primePalindromeList" object should be an interface such as "List" rather than the implementation "ArrayList".(“ó®áüÿÿÿÿ8’£Å—û-Hö;RMINORZ
+CODE_SMELL
+Wsquid:S1659§""Declare "loss" on a separate line.(ª’š€8’£Å—û-H”<RMINORZ
+CODE_SMELL
+­squid:S1319Û"sThe return type of this method should be an interface such as "Map" rather than the implementation "LinkedHashMap".(œ‹ûáøÿÿÿÿ8’£Å—û-H<RMINORZ
+CODE_SMELL
+r
+squid:S106·"9Replace this use of System.out or System.err by a logger.(ÕŠÇ¢şÿÿÿÿ8’£Å—û-Hß;RMAJORZ
+CODE_SMELL
+r
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(¯íû¶şÿÿÿÿ8’£Å—û-H÷;RMAJORZ
+CODE_SMELL
+tsquid:S2184É"ACast one of the operands of this division operation to a "float".(ı»Íşÿÿÿÿ8’£Å—û-Hõ;RMINORZBUG
+ªsquid:S1319À"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÃÂ©–øÿÿÿÿ8’£Å—û-Hî;RMINORZ
+CODE_SMELL
+¥squid:S1319Ş"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Íã„Ë8’£Å—û-Hå;RMINORZ
+CODE_SMELL
+“squid:S2293Æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶şÿÿÿÿ8’£Å—û-H‰<RMINORZ
+CODE_SMELL
+r
+squid:S106Ô"9Replace this use of System.out or System.err by a logger.(§Æ¥ÿÿÿÿÿ8’£Å—û-Hì;RMAJORZ
+CODE_SMELL
+squid:S2293İ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨ÑØ¯8’£Å—û-H€<RMINORZ
+CODE_SMELL
+]squid:S1481æ")Remove this unused "swap" local variable.(å¦‡f8’£Å—û-H×;RMINORZ
+CODE_SMELL
+]squid:S1481w")Remove this unused "base" local variable.(‡¿€î8’£Å—û-Hô;RMINORZ
+CODE_SMELL
+m
+squid:S106æ"9Replace this use of System.out or System.err by a logger.(šÃ˜Ã8’£Å—û-H<RMAJORZ
+CODE_SMELL
+
+squid:S135¨"YReduce the total number of break and continue statements in this loop to use at most one.(‚‘Ä®8’£Å—û-HÊ;RMINORZ
+CODE_SMELL
+¢squid:S1319¥"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ÔäÂô8’£Å—û-HÍ;RMINORZ
+CODE_SMELL
+‰squid:S00100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÖóÇúÿÿÿÿ8’£Å—û-Hù;RMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(Ø¦…ÊÿÿÿÿÿHû;RMAJORZ
+CODE_SMELL
+m
+squid:S106Ş"9Replace this use of System.out or System.err by a logger.(º¼É°8’£Å—û-Hø;RMAJORZ
+CODE_SMELL
+“squid:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹Á³‡üÿÿÿÿ8’£Å—û-H<RMINORZ
+CODE_SMELL
+ªsquid:S1319ø"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ˆ«Ô†ùÿÿÿÿ8’£Å—û-HÜ;RMINORZ
+CODE_SMELL
+nsquid:S2184Ï"@Cast one of the operands of this integer division to a "double".(ŒêÎÚ8’£Å—û-Hç;RMINORZBUG
+r
+squid:S106ê"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8’£Å—û-HÌ;RMAJORZ
+CODE_SMELL
+’squid:S4144Ş"]Update this method so that its implementation is not identical to "printIfPrime" on line 448.(Íã„Ë8¿Å³Ãû-H¸<RMAJORZ
+CODE_SMELL
+r
+squid:S106¦"9Replace this use of System.out or System.err by a logger.(ØÉ»•şÿÿÿÿ8’£Å—û-HÙ;RMAJORZ
+CODE_SMELL
+osquid:S2184Ê"ACast one of the operands of this division operation to a "float".(¨ÔÅ†8’£Å—û-HÔ;RMINORZBUG
+nsquid:S2184Ê"@Cast one of the operands of this integer division to a "double".(ëıÂô8’£Å—û-HÛ;RMINORZBUG
+¤squid:S1319™"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÚæÄ8’£Å—û-Hˆ<RMINORZ
+CODE_SMELL
+–squid:S1488ö"\Immediately return this expression instead of assigning it to the temporary variable "wind".(î§¼Öıÿÿÿÿ8’£Å—û-Hó;RMINORZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(¹‹ó¿ıÿÿÿÿHü;RMAJORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(›Á’ô8’£Å—û-HÚ;RMAJORZ
+CODE_SMELL
+©squid:S1319ù"tThe type of the "primeList" object should be an interface such as "List" rather than the implementation "ArrayList".(¾Ó¾À8ü¯™Åû-HÙ?RMINORZ
+CODE_SMELL
+squid:S2293û"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸ÜæÃ8’£Å—û-H…<RMINORZ
+CODE_SMELL
+csquid:S1751Š"5Remove this "break" statement or make it conditional.(›ûä·8’£Å—û-Hğ;RMAJORZBUG
+m
+squid:S106˜"9Replace this use of System.out or System.err by a logger.(ã‰Ï¡8ü¯™Åû-Hİ?RMAJORZ
+CODE_SMELL
+Ysquid:S1068"'Remove this unused "LOG" private field.(Ëì·şÿÿÿÿHÕ;RMAJORZ
+CODE_SMELL
+ssquid:S1854â">Remove this useless assignment to local variable "findLength".(ïÇÕ8’£Å—û-HÎ;RMAJORZ
 CODE_SMELL

@@ -2,6 +2,8 @@ package com.bridgelabz.dataStructures;
 
 import com.bridgelabz.utility.Utility;
 
+// valid condition done check for balanced condition.
+
 public class Stack {
 	
 	public static void main(String[] args) {
@@ -35,6 +37,10 @@ public class Stack {
 				{
 					flag=true;
 				}
+				else
+				{
+					flag=false;
+				}
 			}
 			
 			else if(letter=='}')
@@ -44,6 +50,10 @@ public class Stack {
 				if(result.equals('{'))
 				{
 					flag=true;
+				}
+				else{
+					flag=false;
+					
 				}
 			}
 			
@@ -55,7 +65,11 @@ public class Stack {
 				{
 					flag=true;
 				}
+				else {
+					flag=false;
+				}
 			}
+			
 			
 			
 			

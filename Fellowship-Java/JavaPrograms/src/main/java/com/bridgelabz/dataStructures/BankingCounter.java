@@ -2,6 +2,10 @@ package com.bridgelabz.dataStructures;
 
 import com.bridgelabz.utility.Utility;
 
+
+
+//Handle null pointer exception on sunday 
+
 public class BankingCounter {
 	static Node rear=null;
 	static Node front=null;
@@ -20,6 +24,7 @@ public class BankingCounter {
 		
 		
 		enQueue(1000);
+		enQueue(500);
 		
 		
 		double totalBalance = 0;
