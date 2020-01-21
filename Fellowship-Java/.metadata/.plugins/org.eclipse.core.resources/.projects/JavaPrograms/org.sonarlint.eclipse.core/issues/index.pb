@@ -105,3 +105,11 @@ h
 8src/main/java/com/bridgelabz/dataStructures/Hashing.java,f/e/fe955563659ec14cd6db31d4b48d0504f620e826
 m
 =src/main/java/com/bridgelabz/dataStructures/Prime2dArray.java,a/4/a42bd68c88ce4d154a3cc079009369a2ef65c022
+w
+Gsrc/main/java/com/bridgelabz/dataStructures/PrimePalindrome2dArray.java,1/3/13b670cc0b14eb312333c0fe8f0358ad20926891
+z
+Jsrc/main/java/com/bridgelabz/algorithmicProgramming/StringPermutation.java,a/2/a298c12e9f056c07f912e53dde732fe0da171729
+r
+Bsrc/main/java/com/bridgelabz/algorithmicProgramming/DayOfWeek.java,0/e/0e058929c5b5817acbc4e3bd3cdbb67bdbe76bde
+e
+5src/main/java/com/bridgelabz/dataStructures/Test.java,5/9/59410b6b95e0155e3fa18e7a526fbc474b609bab

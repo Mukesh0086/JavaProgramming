@@ -1,7 +1,7 @@
 package com.bridgelabz.dataStructures;
 
 public class Node <T> {
-	T data;
-	Node next;
+	public T data;
+	public Node next;
 
 }

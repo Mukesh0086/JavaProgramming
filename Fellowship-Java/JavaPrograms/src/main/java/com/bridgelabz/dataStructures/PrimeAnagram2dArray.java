@@ -1,15 +1,16 @@
 package com.bridgelabz.dataStructures;
 
-import java.util.ArrayList;
+import java.util.*;
 
 import com.bridgelabz.utility.Utility;
 
-public class Prime2dArray {
-	public static void main(String[] args) {
+public class PrimeAnagram2dArray {
 
+	public static void main(String[] args) {
 		ArrayList<Integer> primeList = Utility.printIfPrimeNumber();
-		int [][] primeArray=Utility.primeRepresentation(primeList);
-		for (int[] i : primeArray) {
+		int[][] primeArray = Utility.primeRepresentation(primeList);
+		int [][] primeAndAnagramArray=Utility.anagramsArray(primeArray);
+		for (int[] i : primeAndAnagramArray) {
 			for (int j : i) {
 				if (j == 0)
 					System.out.print(" ");
@@ -18,6 +19,9 @@ public class Prime2dArray {
 			}
 			System.out.println();
 		}
+
 	}
+
+	
 
 }

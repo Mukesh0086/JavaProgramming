@@ -13,11 +13,19 @@ public class Inventory {
 		this.price = price;
 		this.weight = weight;
 	}
+	
+	public Inventory() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 
 	public String getName() {
 		return name;
 	}
+
+
+	
 
 
 	public void setName(String name) {

@@ -11,6 +11,8 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import com.bridgelabz.dataStructures.Node;
+
 
 
 public class Utility {
@@ -758,7 +760,7 @@ public class Utility {
 	}
 	
 	
-	public static void primeRepresentation(ArrayList<Integer> primeList) {
+	public static int [][] primeRepresentation(ArrayList<Integer> primeList) {
 
 		int start = 0;
 		int end = 100;
@@ -784,17 +786,103 @@ public class Utility {
 			start = start + 100;
 			end = end + 100;
 		}
-		for (int[] i : array) {
-			for (int j : i) {
-				if (j == 0)
-					System.out.print(" ");
-				else
-					System.out.print(j + " ");
-			}
-			System.out.println();
-		}
+		
+		return array;
 
 	}	
+	
+	
+	
+	public static int[][] anagramsArray(int[][] array) {
+		int[][] anagrams = new int[20][];
+		int  row = 0, col1 = 0, col2 = 0;
+		boolean flag1 = false, flag2 = false;
+		for (int[] i : array) {
+			ArrayList<Integer> l1 = new ArrayList<Integer>();
+			ArrayList<Integer> l2 = new ArrayList<Integer>();
+			for (int j : i) {
+				String str1 = Integer.valueOf(j).toString();
+				char[] ch1 = str1.toCharArray();
+				Arrays.sort(ch1);
+				for (int k : i) {
+
+					String str2 = Integer.valueOf(k).toString();
+					char[] ch2 = str2.toCharArray();
+					Arrays.sort(ch2);
+					if (str1.equals(str2) == false && str1.length() == str2.length()) {
+						if (String.copyValueOf(ch1).equals(String.copyValueOf(ch2))) {
+							flag1 = true;
+						}
+					} else {
+						flag2 = true;
+					}
+				}
+				if (flag1 == true) {
+					l1.add(j);
+					col1++;
+				} else {
+					l2.add(j);
+					col2++;
+				}
+				flag1 = flag2 = false;
+			}
+			anagrams[row] = new int[col1];
+			anagrams[row + 1] = new int[col2];
+			int t1 = 0, t2 = 0;
+			for (Integer ii : l1) {
+				anagrams[row][t1] = ii;
+				t1++;
+			}
+			for (Integer ii : l2) {
+				anagrams[row + 1][t2] = ii;
+				t2++;
+			}
+			row += 2;
+			col1 = col2 = 0;
+		}
+		return anagrams;
+	}
+	
+	
+	
+	public static Node storeAnagramsIntoStack(int[][] anagrams) {
+		Node head = null, prev = null;
+		for (int i = 0; i < 20; i += 2) {
+			for (int j = 0; j < anagrams[i].length; j++) {
+				Node node = new Node();
+				node.data = anagrams[i][j];
+				node.next = null;
+				if (head == null) {
+					head = node;
+				} else {
+					node.next = head;
+					head = node;
+				}
+			}
+		}
+		return head;
+	}
+	
+	
+	public static Node storeAnagramsIntoQueue(int[][] anagrams) {
+		Node front = null, rear = null;
+		for (int i = 0; i < 20; i += 2) {
+			for (int j = 0; j < anagrams[i].length; j++) {
+				Node node = new Node();
+				node.data = anagrams[i][j];
+				node.next = null;
+				if (front == null) {
+					front = node;
+					rear = node;
+				} else {
+					rear.next=node;
+					rear = node;
+				}
+			}
+		}
+		return front;
+	}
+
 }
 	
 	
