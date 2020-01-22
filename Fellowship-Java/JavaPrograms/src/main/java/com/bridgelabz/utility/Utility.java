@@ -793,7 +793,8 @@ public class Utility {
 	
 	
 	
-	public static int[][] anagramsArray(int[][] array) {
+	public static int[][] anagramsArray(int[][] array) 
+	{
 		int[][] anagrams = new int[20][];
 		int  row = 0, col1 = 0, col2 = 0;
 		boolean flag1 = false, flag2 = false;

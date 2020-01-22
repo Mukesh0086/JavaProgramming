@@ -16,18 +16,13 @@ public class Inventory {
 	
 	public Inventory() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 
 	public String getName() {
 		return name;
 	}
-
-
-	
-
-
 	public void setName(String name) {
 		this.name = name;
 	}

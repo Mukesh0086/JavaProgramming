@@ -1,6 +1,7 @@
 package com.bridgelabz.dataStructures;
 
 public class Main {
+	//Sample class to practice.
 	static class Node{
 		int data;
 		Node next;

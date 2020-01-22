@@ -171,20 +171,13 @@ public class UnOrderedList {
 					break;
 				}
 				
-				
-				
-				
 				node = node.next;
 			}
 			if(flag==false)
 			{
 				list.insert(str);
 			}
-			
-			
-			
 		}
-		
 		
 	}
 		
@@ -193,6 +186,7 @@ public class UnOrderedList {
 	{
 		head=head.next;
 	}
+	
 	
 	public <T> void deleteAt(int index)
 	{
@@ -204,6 +198,7 @@ public class UnOrderedList {
 		Node node=n.next;
 		n.next=node.next;
 	}
+	
 	
 	public <T> void deleteElement(T value)
 	{

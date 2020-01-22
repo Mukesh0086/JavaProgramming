@@ -113,3 +113,11 @@ r
 Bsrc/main/java/com/bridgelabz/algorithmicProgramming/DayOfWeek.java,0/e/0e058929c5b5817acbc4e3bd3cdbb67bdbe76bde
 e
 5src/main/java/com/bridgelabz/dataStructures/Test.java,5/9/59410b6b95e0155e3fa18e7a526fbc474b609bab
+t
+Dsrc/main/java/com/bridgelabz/dataStructures/PrimeAnagram2dArray.java,d/8/d8a3aba08bc162bac271a7efaef05af6f17a9e58
+l
+<src/main/java/com/bridgelabz/dataStructures/FindAnagram.java,a/2/a236c9254609acab3421f99dfc2134d0e6322a17
+r
+Bsrc/main/java/com/bridgelabz/dataStructures/PrimeAnagramStack.java,9/6/9629c7c04e5e5fe0bf015641bf70db7a2ad363bc
+r
+Bsrc/main/java/com/bridgelabz/dataStructures/PrimeAnagramQueue.java,9/0/90da801650852a1edb123319a655fe1a155b7c5b

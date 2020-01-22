@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.bridgelabz.basicProgramming.FlipCoins"/>
-    <fullyQualifiedTypeName name="com.bridgelabz.basicProgramming.Harmonic"/>
-    <fullyQualifiedTypeName name="com.bridgelabz.basicProgramming.LeapYear"/>
     <fullyQualifiedTypeName name="com.bridgelabz.logicalProgramming.ResultGambler"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
@@ -36,11 +33,8 @@
     <fullyQualifiedTypeName name="com.bridgelabz.dataStructures.Hashing.Node"/>
     <fullyQualifiedTypeName name="com.bridgelabz.dataStructures.OrderedList"/>
     <fullyQualifiedTypeName name="com.bridgelabz.dataStructures.UnOrderedList"/>
-    <fullyQualifiedTypeName name="com.bridgelabz.utility.Utility"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -49,15 +43,21 @@
     <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
     <fullyQualifiedTypeName name="com.bridgelabz.dataStructures.Node"/>
     <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
-    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="com.inventoryManagement.Service.inventoryService"/>
-    <fullyQualifiedTypeName name="com.inventoryManagement.model.Inventory"/>
     <fullyQualifiedTypeName name="com.bridgelabz.dataStructures.Check"/>
     <fullyQualifiedTypeName name="com.bridgelabz.dataStructures.Test"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.dataStructures.PrimeAnagramStack"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.dataStructures.PrimeAnagramStack.Node"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.utility.Utility"/>
+    <fullyQualifiedTypeName name="com.inventoryManagement.model.Inventory"/>
+    <fullyQualifiedTypeName name="org.codehaus.jackson.map.ObjectMapper"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
 </qualifiedTypeNameHistroy>

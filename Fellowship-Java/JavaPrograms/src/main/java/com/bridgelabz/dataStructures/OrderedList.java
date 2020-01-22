@@ -26,10 +26,9 @@ public class OrderedList {
 		
 		insertOrder(20);
 		insertOrder(21);
-		show();
-		
-		
-		
+		insertOrder(11);
+		insertOrder(13);
+		show();		
 	}
 	
 	
@@ -60,12 +59,10 @@ public class OrderedList {
 		}
 		return node;
 	}
-	
-	
-	
+
 	public static void show()
 	{
-		System.out.println("show");
+		
 		Node node=head;
 		
 			while(node!=null)
@@ -73,12 +70,7 @@ public class OrderedList {
 				System.out.println(node.data);
 				node=node.next;
 			}
-			
-		
-		
-	}
 	
-	
-	
+	}	
 	
 }
