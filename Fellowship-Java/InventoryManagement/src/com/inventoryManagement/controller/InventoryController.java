@@ -14,7 +14,7 @@ import com.inventoryManagement.Utility.Utility;
 import com.inventoryManagement.model.Inventory;
 import com.inventoryManagement.repository.InventoryRepository;
 
-public class Controller {
+public class InventoryController {
 	
 	
 	public static void main(String[] args) {
