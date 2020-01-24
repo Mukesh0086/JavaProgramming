@@ -13,5 +13,7 @@ public interface StockServiceInterface {
 	public double particularStockValue(JSONArray array,String name);
 	
 	public double totalStockValue(JSONArray array);
+	
+	public void printReport(JSONArray array);
 
 }

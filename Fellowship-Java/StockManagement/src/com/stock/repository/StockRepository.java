@@ -26,7 +26,7 @@ public class StockRepository {
 			String name=Utility.readString();
 			stock.setName(name);
 			System.out.println("Enter share price");
-			double price=Utility.readDouble();
+			int price=Utility.readInteger();
 			stock.setPrice(price);
 			System.out.println("Enter number of Stocks");
 			
@@ -74,6 +74,23 @@ public class StockRepository {
 			e.printStackTrace();
 		}
 		return array;
+		
+	}
+	
+	
+	public void writeToJsonFile(JSONArray array,String filePath)
+	{
+		FileWriter fileWriter;
+		
+		try {
+			fileWriter = new FileWriter(filePath);
+			fileWriter.write(array.toString());
+			fileWriter.close();
+			//fileWriter.flush();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 }

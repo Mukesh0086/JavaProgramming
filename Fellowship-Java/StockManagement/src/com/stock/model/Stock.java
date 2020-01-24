@@ -2,9 +2,9 @@ package com.stock.model;
 
 public class Stock {
 	
-	private int numberOfShares;
-	private String name;
-	private double price;
+	int numberOfShares;
+	String name;
+	int price;
 	
 	
 	
@@ -12,13 +12,13 @@ public class Stock {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Stock(int numberOfShares, String name, double price) {
+	public Stock(int numberOfShares, String name, int price) {
 		super();
 		this.numberOfShares = numberOfShares;
 		this.name = name;
 		this.price = price;
 	}
-	public int getNumberOfShares() {
+	public long getNumberOfShares() {
 		return numberOfShares;
 	}
 	public void setNumberOfShares(int numberOfShares) {
@@ -33,7 +33,7 @@ public class Stock {
 	public double getPrice() {
 		return price;
 	}
-	public void setPrice(double price) {
+	public void setPrice(int price) {
 		this.price = price;
 	}
 

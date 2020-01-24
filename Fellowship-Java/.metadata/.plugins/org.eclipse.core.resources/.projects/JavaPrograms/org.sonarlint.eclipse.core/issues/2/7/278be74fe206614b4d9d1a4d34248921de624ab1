@@ -1,5 +1,5 @@
 
-£"squid:ClassVariableVisibilityCheck"PMake data a static final constant or non-public and provide accessors if needed.(–ú‚Áøÿÿÿÿ8çÚœ´ü-HÃORMINORZVULNERABILITY
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øç½ÎøÿÿÿÿH‡MRMINORZ
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øç½ÎøÿÿÿÿHË_RMINORZ
 CODE_SMELL
-£"squid:ClassVariableVisibilityCheck	"PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ8çÚœ´ü-HÄORMINORZVULNERABILITY
+£"squid:ClassVariableVisibilityCheck"PMake data a static final constant or non-public and provide accessors if needed.(–ú‚Áøÿÿÿÿ8çÚœ´ü-HÌ_RMINORZVULNERABILITY
+£"squid:ClassVariableVisibilityCheck	"PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ8çÚœ´ü-HÍ_RMINORZVULNERABILITY
