@@ -66,15 +66,7 @@ public class InventoryRepository {
 			jsonObject.put("weight", inventory.getWeight());
 			array.add(jsonObject);
 
-			try {
-
-				FileWriter fw = new FileWriter("/home/admin1/Desktop/check.json");
-				fw.write(array.toString());
-				fw.flush();
-
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+			
 			
 		}
 		for (int i = 0; i < array.size(); i++) 
