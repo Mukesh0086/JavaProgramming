@@ -9,7 +9,6 @@ import com.addressBook.utility.Utility;
 
 public class AddressBookController {
 	
-	
 	public static void main(String[] args) {
 		AddressBookServiceInterface serviceInterface=new AddressBookServiceClass();
 		JSONArray readArray=null,addArray=null,sortedNameArray=null;

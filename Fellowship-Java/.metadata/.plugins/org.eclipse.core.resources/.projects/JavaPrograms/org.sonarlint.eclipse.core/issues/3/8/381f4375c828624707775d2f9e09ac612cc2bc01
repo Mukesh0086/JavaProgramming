@@ -1,16 +1,0 @@
-
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ–†£Hâ
-RMINORZ
-CODE_SMELL
-nsquid:S1854":Remove this useless assignment to local variable "result".(‚ú¶´8ûÂ·Æø-Hæ
-RMAJORZ
-CODE_SMELL
-’squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒø¤÷ûÿÿÿÿ8ûÂ·Æø-Hè
-RMINORZ
-CODE_SMELL
-‚squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÒ×d8ûÂ·Æø-Hå
-RMINORZ
-CODE_SMELL
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚ú¶´8ûÂ·Æø-Hç
-RMINORZ
-CODE_SMELL

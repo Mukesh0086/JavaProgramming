@@ -1,13 +1,0 @@
-
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯èÈÚ8ûÔüÅø-HÉ
-RMINORZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(í—¤Hº
-RMINORZ
-CODE_SMELL
-•squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(ªÆ­à8ûÔüÅø-HÈ
-RMINORZ
-CODE_SMELL
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(í¼‚€8ûÔüÅø-HÊ
-RMINORZ
-CODE_SMELL

@@ -1,38 +1,0 @@
-
-fsquid:S4973`"9Use the "equals" method if value comparison was intended.(æ±ôå8¿Áğœø-H”RMAJORZBUG
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æ­šÍüÿÿÿÿH•RMINORZ
-CODE_SMELL
-}squid:S1192|"FDefine a constant instead of duplicating this literal "go on" 3 times.(÷Å¹µ8¿Áğœø-H–RCRITICALZ
-CODE_SMELL
-fsquid:S4973B"9Use the "equals" method if value comparison was intended.(­¹Ïå8¿Áğœø-H—RMAJORZBUG
-l
-squid:S106-"9Replace this use of System.out or System.err by a logger.(ºĞ‡Œ8¿Áğœø-H˜RMAJORZ
-CODE_SMELL
-fsquid:S4973N"9Use the "equals" method if value comparison was intended.(„Œì8¿Áğœø-H™RMAJORZBUG
-q
-squid:S1063"9Replace this use of System.out or System.err by a logger.(„ˆ•ıÿÿÿÿ8Ñïäø-HšRMAJORZ
-CODE_SMELL
-r
-squid:S106†"9Replace this use of System.out or System.err by a logger.(ÅÅªúÿÿÿÿ8â¹®‚ø-H›RMAJORZ
-CODE_SMELL
-m
-squid:S106"9Replace this use of System.out or System.err by a logger.(Úï°æ8„Åüÿ÷-HœRMAJORZ
-CODE_SMELL
-esquid:S4973h"9Use the "equals" method if value comparison was intended.(½› 8¿Áğœø-HRMAJORZBUG
-r
-squid:S106›"9Replace this use of System.out or System.err by a logger.(¹“÷˜ıÿÿÿÿ8Ñïäø-HRMAJORZ
-CODE_SMELL
-l
-squid:S106„"9Replace this use of System.out or System.err by a logger.(ñà²8¿Áğœø-HŸRMAJORZ
-CODE_SMELL
-‰squid:S3776;"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(úø8¿Áğœø-H RCRITICALZ
-CODE_SMELL
-m
-squid:S106˜"9Replace this use of System.out or System.err by a logger.(º½šÓ8„Åüÿ÷-H¡RMAJORZ
-CODE_SMELL
-ksquid:S4973]"9Use the "equals" method if value comparison was intended.(¤ÀŒ²üÿÿÿÿ8¿Áğœø-H¢RMAJORZBUG
-ksquid:S4973""9Use the "equals" method if value comparison was intended.(ÚĞçùÿÿÿÿ8¿Áğœø-H£RMAJORZBUG
-ksquid:S4973""9Use the "equals" method if value comparison was intended.(ÚĞçùÿÿÿÿ8¿Áğœø-H¤RMAJORZBUG
-Msquid:S2119"Save and re-use this "Random".(¼İÅf8¿Áğœø-H¥RCRITICALZBUG
-ksquid:S4973A"9Use the "equals" method if value comparison was intended.(ƒ¿ª‰ùÿÿÿÿ8¿Áğœø-H¦RMAJORZBUG
-fsquid:S4973O"9Use the "equals" method if value comparison was intended.(­¹Ïå8¿Áğœø-H§RMAJORZBUG

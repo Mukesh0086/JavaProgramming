@@ -1,26 +1,0 @@
-
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÎ¤ÏHÚFRMINORZ
-CODE_SMELL
-d
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáBHÛFRMAJORZ
-CODE_SMELL
-j
-squid:S106I"9Replace this use of System.out or System.err by a logger.(£Í´®üÿÿÿÿHÜFRMAJORZ
-CODE_SMELL
-e
-squid:S106O"9Replace this use of System.out or System.err by a logger.(áÁ£µHİFRMAJORZ
-CODE_SMELL
-d
-squid:S1066"9Replace this use of System.out or System.err by a logger.(ƒÚáBHŞFRMAJORZ
-CODE_SMELL
-j
-squid:S106M"9Replace this use of System.out or System.err by a logger.(¬Ş×ùÿÿÿÿHßFRMAJORZ
-CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÖÌà‘HàFRMAJORZ
-CODE_SMELL
-jsquid:S1197H"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿHáFRMINORZ
-CODE_SMELL
-e
-squid:S106J"9Replace this use of System.out or System.err by a logger.(·ï”šHâFRMAJORZ
-CODE_SMELL

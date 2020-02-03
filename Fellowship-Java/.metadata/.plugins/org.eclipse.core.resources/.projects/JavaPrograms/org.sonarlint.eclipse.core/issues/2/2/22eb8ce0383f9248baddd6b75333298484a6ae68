@@ -1,39 +1,0 @@
-
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(”Û‹¿ýÿÿÿÿHë
-RMAJORZ
-CODE_SMELL
-Ÿ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(©éø¤ûÿÿÿÿHì
-RMAJORZ
-CODE_SMELL
-‹squid:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶þÿÿÿÿHí
-RMINORZ
-CODE_SMELL
-ksquid:S1854"9Remove this useless assignment to local variable "alist".(©¡ðŽþÿÿÿÿHî
-RMAJORZ
-CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(ëÏÒõHï
-RMAJORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿHð
-RMAJORZ
-CODE_SMELL
-‹squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(©¡ðŽþÿÿÿÿHñ
-RMINORZ
-CODE_SMELL
-¢squid:S1319&"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(èîóËüÿÿÿÿHò
-RMINORZ
-CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(Î³Ó²Hó
-RMAJORZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ–†£Hô
-RMINORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(¼ÜÿãúÿÿÿÿHõ
-RMAJORZ
-CODE_SMELL

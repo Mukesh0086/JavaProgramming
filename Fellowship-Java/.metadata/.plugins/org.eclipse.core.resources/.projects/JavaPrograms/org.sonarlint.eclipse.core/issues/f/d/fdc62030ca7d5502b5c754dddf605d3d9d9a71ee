@@ -1,20 +1,0 @@
-
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æ­šÍüÿÿÿÿH™RMINORZ
-CODE_SMELL
-psquid:UselessImportCheck"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8¢ÖÔü÷-HRMINORZ
-CODE_SMELL
-l
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹•Çú8ã¼Œú÷-HœRMAJORZ
-CODE_SMELL
-]squid:S1125.")Remove the literal "false" boolean value.(Ó®Ö8Í§‘ı÷-HRMINORZ
-CODE_SMELL
-q
-squid:S106"9Replace this use of System.out or System.err by a logger.(«¢‚ïÿÿÿÿÿ8ã¼Œú÷-H›RMAJORZ
-CODE_SMELL
-q
-squid:S106'"9Replace this use of System.out or System.err by a logger.(¯íû¶şÿÿÿÿ8‰Ñµı÷-HšRMAJORZ
-CODE_SMELL
-bsquid:S2140&")Use "java.util.Random.nextInt()" instead.(“®¨üÿÿÿÿ8Í§‘ı÷-HŸRMINORZ
-CODE_SMELL
-qsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Í§‘ı÷-H RMINORZ
-CODE_SMELL

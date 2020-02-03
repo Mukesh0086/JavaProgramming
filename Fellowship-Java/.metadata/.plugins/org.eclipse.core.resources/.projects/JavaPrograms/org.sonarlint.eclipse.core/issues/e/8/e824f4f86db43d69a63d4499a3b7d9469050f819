@@ -1,35 +1,0 @@
-
-_squid:S1148""#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8οδσω-HRMINORZVULNERABILITY
-jsquid:S1135!"2Complete the task associated to this TODO comment.(ΥΜ®ώÿÿÿÿ8οδσω-H“RINFOZ
-CODE_SMELL
-q
-squid:S106M"9Replace this use of System.out or System.err by a logger.(πζ°ϊÿÿÿÿ8ηβΤυω-HRMAJORZ
-CODE_SMELL
-q
-squid:S106C"9Replace this use of System.out or System.err by a logger.(ρΉƒΡϊÿÿÿÿ8² €φω-HμRMAJORZ
-CODE_SMELL
-xsquid:S2147#"DCombine this catch with the one at line 32, which has the same body.(ο­£Δ8οδσω-HRMINORZ
-CODE_SMELL
-jsquid:S1135$"2Complete the task associated to this TODO comment.(ΥΜ®ώÿÿÿÿ8οδσω-H’RINFOZ
-CODE_SMELL
-q
-squid:S1064"9Replace this use of System.out or System.err by a logger.(πζ°ϊÿÿÿÿ8ΰΈυω-H‡RMAJORZ
-CODE_SMELL
-usquid:S2583:"CChange this condition so that it does not always evaluate to "true"(΄ϊ„ϊÿÿÿÿ8ξΉφω-H‰RMAJORZBUG
-qsquid:S2259T"?A "NullPointerException" could be thrown; "n" is nullable here.(ρΉƒΡϊÿÿÿÿ8² €φω-HλRMAJORZBUG
-|squid:UselessImportCheck"6Remove this unused import 'java.util.StringTokenizer'.(ΘΔ¬ρώÿÿÿÿ8οδσω-HRMINORZ
-CODE_SMELL
-zsquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(υ‡Ν8οδσω-HRBLOCKERZBUG
-lsquid:S1854;"8Remove this useless assignment to local variable "head".(ιªϊ8ξΉφω-HRMAJORZ
-CODE_SMELL
-q
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(ρΉƒΡϊÿÿÿÿ8›Θ“φω-H–RMAJORZ
-CODE_SMELL
-_squid:S1148%"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8οδσω-HRMINORZVULNERABILITY
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ψη½ΞψÿÿÿÿHφRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(Ότο 8ξΉφω-H‹RMAJORZ
-CODE_SMELL
-q
-squid:S106T"9Replace this use of System.out or System.err by a logger.(ρΉƒΡϊÿÿÿÿ8χβ•φω-HRMAJORZ
-CODE_SMELL
