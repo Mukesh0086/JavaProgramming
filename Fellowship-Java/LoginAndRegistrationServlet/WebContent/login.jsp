@@ -11,7 +11,7 @@
 	<div class="seaWorld1" id="seaWorld1"></div>
 	<div class="seaWorld2" id="seaWorld2"></div>
 
-	<form id="login" method="post" action="LoginServlet">
+	<form id="login" method="post" action="login">
 
 		<div class="loginClass" id="login-form">
 			<label for="name">User Name*</label> <input type="text" id="userName"
@@ -19,8 +19,6 @@
 				type="password" id="password" name="password" />
 
 		</div>
-
-
 
 
 
@@ -34,3 +32,4 @@
 
 </body>
 </html>
+.

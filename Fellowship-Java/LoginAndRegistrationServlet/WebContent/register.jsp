@@ -11,7 +11,7 @@
 	<div class="seaWorld1" id="seaWorld1"></div>
 	<div class="seaWorld2" id="seaWorld2"></div>
 
-	<form id="login" method="post" action="RegisterServlet">
+	<form id="login" method="post" action="register">
 
 		<div class="loginClass" id="login-form">
 			<label for="name">First Name*</label> 

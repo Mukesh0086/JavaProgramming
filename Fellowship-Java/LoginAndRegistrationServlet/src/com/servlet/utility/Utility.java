@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class Utility {
 
-	private static final String DRIVER="com.mysql.cj.jdbc.Driver";
+	private static final String DRIVER="com.mysql.jdbc.Driver";
 	//private static final String URL=";
 	private static final String USERNAME="punk";
 	private static final String PASSWORD="punk";

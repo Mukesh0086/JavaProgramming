@@ -1,9 +1,10 @@
 package com.servlet.dao;
 
-import java.sql.Connection;
+import java.sql.Connection; 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 
 import com.servlet.model.Registration;
@@ -78,6 +79,37 @@ public class SeaWorldDao extends SeaWorldService{
 			e.printStackTrace();
 		}
 		return flag;
+	}
+
+	@Override
+	public Registration getUserDetails(String userName) {
+		
+		Registration reg=new Registration();;
+		try {
+			System.out.println("aGBJKgbjsgvbj");
+			Connection con=Utility.getConnection();
+			System.out.println(con);
+			Statement ps=con.createStatement();
+			ResultSet rs=ps.executeQuery("select * from Register_SeaWorld where UserName='"+userName+"'");
+			
+			while(rs.next())
+			{		
+			reg.setId(rs.getLong(1));	
+			reg.setFirstName(rs.getString(2));
+			reg.setLastName(rs.getString(3));
+			reg.setUserName(rs.getString(4));
+			reg.setEmail(rs.getString(5));
+			reg.setPassword(rs.getString(7));
+			reg.setPhoneNumber(rs.getLong(6));
+			}
+			
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return reg;
 	}
 	
 	

@@ -12,5 +12,6 @@ public abstract class SeaWorldService {
 	public abstract boolean updateRegisteredUsers();
 	public abstract boolean deleteRegisteredUsers();
 	public abstract boolean validateLogin(String username,String password);
+	public abstract Registration getUserDetails(String userName);
 
 }

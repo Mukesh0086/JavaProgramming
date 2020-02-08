@@ -12,14 +12,16 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.servlet.dao.SeaWorldDao;
+import com.servlet.model.Registration;
 import com.servlet.service.SeaWorldService;
 
 /**
  * Servlet implementation class LoginServlet
  */
-@WebServlet("/LoginServlet")
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -54,13 +56,24 @@ public class LoginServlet extends HttpServlet {
 			
 		}
 		
-		
+		//filters and listeners implementation remaining.
 		String loginUserName=request.getParameter("userName");
 		String loginPassword=request.getParameter("password");
-		System.out.println(loginPassword);
+		
 		SeaWorldService seaWorldService=new SeaWorldDao();
 		boolean loginValidate=seaWorldService.validateLogin(loginUserName, loginPassword);
-		System.out.println(loginValidate);
+		Registration reg=seaWorldService.getUserDetails(loginUserName);
+		
+		
+		
+		HttpSession httpSession=request.getSession();
+		HttpSession httpSession1=request.getSession();
+		httpSession.setAttribute("userName", loginUserName);
+		System.out.println(reg.getEmail());
+		httpSession1.setAttribute("registerObject", reg);
+	
+		
+		
 		if(loginValidate==true)
 		{
 			response.sendRedirect("welcome.jsp");
