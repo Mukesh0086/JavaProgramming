@@ -12,7 +12,6 @@ INDEX VERSION 1.131+/home/bridgelabz/JavaProgramming/Fellowship-Java/.metadata/.
 428797556.index
 1241934936.index
 4178196113.index
-1867009558.index
 3306499849.index
 220624489.index
 3262796845.index

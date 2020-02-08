@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1>
+You have been logged out successfully!!
+<%response.setHeader("Cache Control", "no-cache,no-store,must-revalidate"); %>
+</h1>
 </body>
 </html>
-<%response.setHeader("Cache Control", "no-cache,no-store,must-revalidate"); %>

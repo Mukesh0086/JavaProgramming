@@ -30,7 +30,7 @@
 		<input type="submit" value="Register" name="submit" />
 	</form>
 </div>
-
+<%response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate"); %>
 
 
 </body>

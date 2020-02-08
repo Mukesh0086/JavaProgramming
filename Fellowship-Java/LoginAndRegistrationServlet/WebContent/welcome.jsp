@@ -13,7 +13,7 @@
 	<div class="seaWorld1" id="seaWorld1"></div>
 	<div class="seaWorld2" id="seaWorld2"></div>
 
-	<form id="login" method="post" action="login">
+	<form id="login" method="post" action="logout">
 
 		<div class="loginClass" id="login-form">
 			
@@ -57,12 +57,12 @@
 		</div>
 		
 		
-		<input type="submit" value="Edit" name="submit" />
+		
 		<input type="submit" value="LogOut" name="submit" />
 	</form>
 </div>
 
-
+<%response.setHeader("Cache Control", "no-cache,no-store,must-revalidate"); %>
 
 </body>
 </html>

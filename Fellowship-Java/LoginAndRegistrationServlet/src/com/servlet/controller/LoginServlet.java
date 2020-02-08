@@ -37,7 +37,13 @@ public class LoginServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	// TODO Auto-generated method stub
 		
 		String submitValue=request.getParameter("submit");
 		System.out.println(submitValue);
@@ -73,27 +79,21 @@ public class LoginServlet extends HttpServlet {
 		httpSession1.setAttribute("registerObject", reg);
 	
 		
-		
+		String page;
 		if(loginValidate==true)
 		{
-			response.sendRedirect("welcome.jsp");
+			page="welcome.jsp";
 		}
 		else
 		{
-			response.sendRedirect("loginUnsuccessful.jsp");
+			page="loginUnsuccessful.jsp";
 			
 		}
+		response.sendRedirect(page);
 		
 		//response.getWriter().println("welcome to sea world  	"+name);
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
-	}
+	
 
 }

@@ -59,7 +59,7 @@ public class RegisterServlet extends HttpServlet {
 		registration.setPassword(password);
 		
 		boolean insertFlag=seaWorldService.addRegistrationData(registration);
-		RequestDispatcher rd=request.getRequestDispatcher("welcome.jsp");
+		RequestDispatcher rd=request.getRequestDispatcher("login.jsp");
 		if(insertFlag==true)
 		{
 			HttpSession httpSession=request.getSession();

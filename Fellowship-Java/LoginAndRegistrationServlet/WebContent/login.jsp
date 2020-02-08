@@ -5,7 +5,7 @@
 	<h1>Sea World Login</h1>
 
 </header>
-
+<%response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate"); %>
 <div id="form">
 
 	<div class="seaWorld1" id="seaWorld1"></div>
