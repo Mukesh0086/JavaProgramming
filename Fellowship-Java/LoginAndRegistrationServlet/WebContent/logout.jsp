@@ -9,7 +9,8 @@
 <body>
 <h1>
 You have been logged out successfully!!
-<%response.setHeader("Cache Control", "no-cache,no-store,must-revalidate"); %>
+Click <a href="login.jsp">Login</a>
+<%response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate"); %>
 </h1>
 </body>
 </html>

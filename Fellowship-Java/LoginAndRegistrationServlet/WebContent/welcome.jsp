@@ -62,7 +62,7 @@
 	</form>
 </div>
 
-<%response.setHeader("Cache Control", "no-cache,no-store,must-revalidate"); %>
+<%response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate"); %>
 
 </body>
 </html>
