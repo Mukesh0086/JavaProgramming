@@ -23,7 +23,7 @@
 
 
 		<input type="submit" value="Login!" name="submit" /> 
-		<input type="submit" value="Forgot Password!" name="submit" /> 
+		
 		
 	</form>
 </div>

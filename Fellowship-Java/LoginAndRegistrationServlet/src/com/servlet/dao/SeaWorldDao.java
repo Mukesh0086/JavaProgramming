@@ -37,24 +37,7 @@ public class SeaWorldDao extends SeaWorldService{
 		return false;
 	}
 
-	@Override
-	public ArrayList<Registration> viewRegistrateredUsers() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public boolean updateRegisteredUsers() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean deleteRegisteredUsers() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
+	
 	@Override
 	public boolean validateLogin(String username, String password) {
 		boolean flag=false;
