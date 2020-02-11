@@ -56,7 +56,7 @@ public class SeaWorldDao extends SeaWorldService{
 				}
 			}
 			
-			
+			con.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -69,7 +69,7 @@ public class SeaWorldDao extends SeaWorldService{
 		
 		Registration reg=new Registration();;
 		try {
-			System.out.println("aGBJKgbjsgvbj");
+			
 			Connection con=Utility.getConnection();
 			System.out.println(con);
 			Statement ps=con.createStatement();
@@ -86,7 +86,7 @@ public class SeaWorldDao extends SeaWorldService{
 			reg.setPhoneNumber(rs.getLong(6));
 			}
 			
-			
+			con.close();
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

@@ -48,7 +48,7 @@ public class LoginServlet extends HttpServlet {
 		String submitValue=request.getParameter("submit");
 		System.out.println(submitValue);
 		
-			
+		//Based on button click passing control to respective pages	
 			
 		if(submitValue.equalsIgnoreCase("Login")) {
 			RequestDispatcher dispatcher=request.getRequestDispatcher("login.jsp");
@@ -62,11 +62,12 @@ public class LoginServlet extends HttpServlet {
 			
 		}
 		
-		//filters and listeners implementation remaining.
+		
 		String loginUserName=request.getParameter("userName");
 		String loginPassword=request.getParameter("password");
 		
-		SeaWorldService seaWorldService=new SeaWorldDao();
+		
+		SeaWorldService seaWorldService=new SeaWorldDao();//object to access DAO methods
 		boolean loginValidate=seaWorldService.validateLogin(loginUserName, loginPassword);
 		Registration reg=seaWorldService.getUserDetails(loginUserName);
 		
@@ -75,11 +76,11 @@ public class LoginServlet extends HttpServlet {
 		HttpSession httpSession=request.getSession();
 		HttpSession httpSession1=request.getSession();
 		httpSession.setAttribute("userName", loginUserName);
-		System.out.println(reg.getEmail());
 		httpSession1.setAttribute("registerObject", reg);
 	
 		
 		String page;
+		//checking whether login user exists registered previously.
 		if(loginValidate==true)
 		{
 			page="welcome.jsp";

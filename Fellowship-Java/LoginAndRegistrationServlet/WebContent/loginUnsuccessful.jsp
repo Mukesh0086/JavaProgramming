@@ -8,7 +8,7 @@
 </head>
 <body>
 <p> The username or password entered is incorrect 
-	If your a new user click to <a href="register.jsp"><b>Register</b></a>here.
-	If your a existing user click to <a href="login.jsp"><b>Login</b></a>here.
+	If your a new user click to <a href="register.jsp"><b>Register</b></a> here.<br>
+	If your a existing user click to <a href="login.jsp"><b>Login</b></a> here.
 </body>
 </html>

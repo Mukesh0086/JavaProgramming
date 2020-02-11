@@ -21,6 +21,13 @@ public class RegistrationValidate implements Filter {
 	/**
 	 * Default constructor.
 	 */
+	
+	
+	@Override
+	public void init(FilterConfig arg0) throws ServletException {
+		// TODO Auto-generated method stub
+		
+	}
 	public RegistrationValidate() {
 		// TODO Auto-generated constructor stub
 	}
@@ -48,7 +55,7 @@ public class RegistrationValidate implements Filter {
 		String phone = req.getParameter("phoneNumber");
 		String email = req.getParameter("email");
 		String password = req.getParameter("password");
-
+		//basic validation only if validation passed the control is sent to servlet to insert in database.
 		if (password.length() > 5 && fname.length() > 2 && lname.length() > 1 && uname.length() > 3
 				&& email.contains("@") && email.contains(".com") && phone.matches("[0-9]+") && phone.length() == 10) {
 			validate = true;
@@ -56,16 +63,14 @@ public class RegistrationValidate implements Filter {
 
 		} else {
 			validate = false;
+			//if validation fails showing user the invalid details page.
 			res.sendRedirect("invalidDetails.jsp");
 		}
 
 	}
 
-	/**
-	 * @see Filter#init(FilterConfig)
-	 */
-	public void init(FilterConfig fConfig) throws ServletException {
-		// TODO Auto-generated method stub
-	}
+	
 
+	
+	
 }
