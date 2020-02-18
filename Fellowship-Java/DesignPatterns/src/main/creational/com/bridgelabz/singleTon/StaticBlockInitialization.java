@@ -1,7 +1,7 @@
 package com.bridgelabz.singleTon;
 /**
  * changes:just like eager initialiazation but here we can handle the exception
- * @author koti
+ * @author Mukesh
  *
  */
 public class StaticBlockInitialization 

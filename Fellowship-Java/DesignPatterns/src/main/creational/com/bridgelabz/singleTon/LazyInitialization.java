@@ -1,7 +1,7 @@
 package com.bridgelabz.singleTon;
 /**
  * same as eagerinitialization
- * @author koti
+ * @author Mukesh
  * changes:but we can declare obj only not created it is created if obj is null otherwise not
  * problem:if there are two threads are running at same time then two obj will be created
  *

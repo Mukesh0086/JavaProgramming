@@ -1,7 +1,7 @@
 package com.bridgelabz.singleTon;
 /**
  * changes:use synchronized when getting instance because in synchronized at a time only one thread will be allowed
- * @author user
+ * @author Mukesh
  *
  */
 public class ThreadSafe 

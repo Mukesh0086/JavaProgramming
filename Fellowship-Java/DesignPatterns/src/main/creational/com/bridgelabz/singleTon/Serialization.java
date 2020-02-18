@@ -12,7 +12,7 @@ import java.io.Serializable;
 /**
  * serialization:-convert object data into bytestream transfer through network
  * deserialization:-convert bytestream to object 
- * @author user
+ * @author Mukesh
  *problem:the main problem of serialization is we can create two differenrt objects 1 for transfer data called serialization
  *and another for receiving data called deserialization.
  *if we want to overcome this we can use one inbuilt method called readResolve.
